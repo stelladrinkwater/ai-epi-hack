@@ -54,5 +54,6 @@ Insight from this: Can we get models to tell us what principles they are applyin
 
 #### Ways to Extend support-score
 - Allow chains of reasoning? Find a way to test these
+- Find a way to audit math (logic and foundations) (i'm not phrasing this well)
 
 
