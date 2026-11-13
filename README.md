@@ -15,13 +15,17 @@ AI systems now recommend and increasingly make consequential decisions, and we d
     -> Simplify this to just certainty of statements? (i.e. not asking the model to answer a question then state certainty, instead just giving it a statement and ask "How certain is it that this statement is true"?)
 2. Test certainty in a number of different ways:
 
-   a. Ask again ("are you sure?") -> Blurs into sycophancy testing (messy)
-
-   b. Ask another model(?)
-
-   c. With open weight models -> Look for a signal of confidence in the activations(?)
+    Best Idea Currently: With open weight models -> Look for a signal of confidence in the activations(?)
 
    ^ With open models we could try and test the question of "Is a model's reported certainty representative of how certain it actually predicts the answer to be?" (i.e. is the output misrepresenting the internal state)
+
+Thinking of ways people set their own internal confidence meters (brainstorming for applicable ideas):
+
+- If you apply a principle (or "law") to a many problems and in the past it has almost always given you the right answer, you will likely feel confident in your predictions when applying it to a new problem
+  
+- If a problem is very dissimilar to anything you have seen before, any prediction you make will likely be with a lower level of confidence
+
+Insight from this: Can we get models to tell us what principles they are applying, if any? Can we ask for similar examples that support their confidence rating? Can we measure *how* similar each similar example is, then how many their are? Can some metric like this (e.g. get top 5 most similar past known examples, measure how similar they are, add the similarities to get a past-data-similarity-score) tell us something about confidence?
 
 ### To find hard questions fast:
 1. Generate a list of questions
