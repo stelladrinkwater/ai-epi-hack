@@ -1,0 +1,3 @@
+# Put one question on each line. Lines beginning with # are ignored.
+What are the main factors that influence whether a newly introduced public health intervention reduces disease transmission?
+Does a short-term improvement in a clinical biomarker usually imply a long-term improvement in patient outcomes?
