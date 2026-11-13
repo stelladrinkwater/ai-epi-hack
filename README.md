@@ -27,7 +27,22 @@ AI systems now recommend and increasingly make consequential decisions, and we d
 
 Insight from this: Can we get models to tell us what principles they are applying, if any? Can we ask for similar examples that support their confidence rating? Can we measure *how* similar each similar example is, then how many their are? Can some metric like this (e.g. get top 5 most similar past known examples, measure how similar they are, add the similarities to get a past-data-similarity-score) tell us something about confidence?
 
+## Minimal Workflow (testing a minimal version of this idea first):
 
+1. Ask model a question
+   
+3. Ask model to state certainty of answer
+   
+5. Ask model to provide k (start with k=5, adjust later?) similar examples it is "drawing from"
+   
+    - Also, to help generate more ideas, ask what principles are being used/"how it knows"/how it set the certainty level
+      
+6. Use an external system to rate how similar each of these similar examples actually is
+
+    - Create a similarity score
+  
+7. Compare similarity score to model's outputted confidence
+   
 #### (Supporting Idea) To find hard questions fast:
 1. Generate a list of questions
 2. Ask the questions to a few different models
