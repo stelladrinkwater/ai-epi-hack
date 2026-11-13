@@ -17,7 +17,8 @@ AI systems now recommend and increasingly make consequential decisions, and we d
    a. Ask again ("are you sure?") -> Blurs into sycophancy testing (messy)
    b. Ask another model(?)
    c. With open weight models -> Look for a signal of confidence in the activations(?)
-       ^ With open models we could try and test the question of "Is a model's reported certainty representative of how certain it actually predicts the answer to be?" (i.e. is the output misrepresenting the internal state)
+
+   ^ With open models we could try and test the question of "Is a model's reported certainty representative of how certain it actually predicts the answer to be?" (i.e. is the output misrepresenting the internal state)
 
 ### To find hard questions fast:
 1. Generate a list of questions
