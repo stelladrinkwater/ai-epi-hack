@@ -51,6 +51,7 @@ Note: Used openrouter for steps 1-3
 #### Ways to Extend support-score
 - Allow chains of reasoning? Find a way to test these
 - Find a way to audit math (logic and foundations) (i'm not phrasing this well)
+- Should we also check that the similar examples stated are real and accurately stated?
 
 
 # Code Notes (Codex):
