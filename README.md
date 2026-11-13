@@ -10,6 +10,8 @@ AI systems now recommend and increasingly make consequential decisions, and we d
 
 ## Core Question: "Does a model know how solid its claims are? Can its confidence in a recommendation be elicited and verified?"
 
+### Note: This is *not* about calibration of predictions, it's about measuring if confidence correlated to how well-supported the claim is.
+
 ## Eval Structure (Applying ML Principles):
 1. Prompt model to define how certain it is of an answer to a question
     -> Simplify this to just certainty of statements? (i.e. not asking the model to answer a question then state certainty, instead just giving it a statement and ask "How certain is it that this statement is true"?)
