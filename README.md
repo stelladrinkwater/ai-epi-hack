@@ -27,7 +27,8 @@ Thinking of ways people set their own internal confidence meters (brainstorming 
 
 Insight from this: Can we get models to tell us what principles they are applying, if any? Can we ask for similar examples that support their confidence rating? Can we measure *how* similar each similar example is, then how many their are? Can some metric like this (e.g. get top 5 most similar past known examples, measure how similar they are, add the similarities to get a past-data-similarity-score) tell us something about confidence?
 
-### To find hard questions fast:
+
+#### (Supporting Idea) To find hard questions fast:
 1. Generate a list of questions
 2. Ask the questions to a few different models
 3. See where the output differs
