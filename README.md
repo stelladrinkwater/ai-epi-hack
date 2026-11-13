@@ -52,4 +52,7 @@ Insight from this: Can we get models to tell us what principles they are applyin
 3. See where the output differs
     -> Use this subset of questions for eval-development
 
+#### Ways to Extend support-score
+- Allow chains of reasoning? Find a way to test these
+
 
