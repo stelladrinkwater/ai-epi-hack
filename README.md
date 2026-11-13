@@ -1,8 +1,6 @@
 # ai-epi-hack
 AI x Epistemics Research Sprint
 
-This README is 100% human written :-)
-
 ## Track 1: Model Epistemics & Decision-Making Evals
 > Does the model understand how solid its claims are? Can you accurately measure its confidence in a decision and verify that against reality? Can you measure the gap between what a model implies and what it will defend (e.g. overselling, "flip-flopping", misrepresented evidence)? Which model behaviours matter for real decision quality, and does ranking well on an honesty benchmark predict better decision-making? What does a benchmark need to stay meaningful over time? Which exploits make benchmarks gameable, and can you demonstrate and close one? AI systems now recommend and increasingly make consequential decisions, and we do not currently have a great idea of the quality of their epistemics. Does a model know how solid its claims are? Can its confidence in a recommendation be elicited and verified? Is it misrepresenting the solidity of what it tells you: overselling its own work, implying more than it will defend, retreating quietly under pushback? Evals are the cheapest external lever on model behaviour by shaping what labs optimise for.
 
@@ -50,3 +48,5 @@ Note: Used openrouter for steps 1-3
 - Allow chains of reasoning? Find a way to test these
 - Find a way to audit math (logic and foundations) (i'm not phrasing this well)
 - Should we also check that the similar examples stated are real and accurately stated?
+
+Note: This file is 100% human written.
