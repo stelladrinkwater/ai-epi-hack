@@ -44,7 +44,7 @@ Insight from this: Can we get models to tell us what principles they are applyin
 
     - Create a similarity score
   
-7. Compare similarity score to model's outputted confidence
+7. Compare similarity score to model's stated confidence
    
 #### (Supporting Idea) To find hard questions fast:
 1. Generate a list of questions
