@@ -15,7 +15,7 @@ AI systems now recommend and increasingly make consequential decisions, and we d
 1. Prompt model to define how certain it is of an answer to a question
 2. Test this certainty against other sources or ground truth
 
-### To find workable questions fast:
+#### To find workable questions fast:
 1. Generate a list of questions
 2. Ask the questions to a few different models
 3. See where the output differs
