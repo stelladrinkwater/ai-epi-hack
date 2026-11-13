@@ -40,7 +40,7 @@ Insight from this: Can we get models to tell us what principles they are applyin
     - Create a similarity score: Some type of vector that compares the keywords/results in the similar examples(?)
 5. Compare similarity score to model's stated confidence
 
-Note: Used openrouter for steps 1.3
+Note: Used openrouter for steps 1-3
    
 #### (Supporting Idea) To find hard questions fast:
 1. Generate a list of questions
