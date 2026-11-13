@@ -10,13 +10,19 @@ AI systems now recommend and increasingly make consequential decisions, and we d
 
 ## Core Question: "Does a model know how solid its claims are? Can its confidence in a recommendation be elicited and verified?"
 
-### Eval Structure (Applying ML Principles):
+## Eval Structure (Applying ML Principles):
 1. Prompt model to define how certain it is of an answer to a question
-    -> Simplify this to just certainty of statements? (i.e. not asking the model to answer a q then state certainty, instead just give it a statement and ask "How certain is it that this statement is true"?)
-3. Test this certainty against other sources or ground truth
+    -> Simplify this to just certainty of statements? (i.e. not asking the model to answer a question then state certainty, instead just giving it a statement and ask "How certain is it that this statement is true"?)
+2. Test certainty in a number of different ways:
+   a. Ask again ("are you sure?") -> Blurs into sycophancy testing (messy)
+   b. Ask another model(?)
+   c. With open weight models -> Look for a signal of confidence in the activations(?)
+       ^ With open models we could try and test the question of "Is a model's reported certainty representative of how certain it actually predicts the answer to be?" (i.e. is it misrepresenting)
 
-### To find workable questions fast:
+### To find hard questions fast:
 1. Generate a list of questions
 2. Ask the questions to a few different models
 3. See where the output differs
     -> Use this subset of questions for eval-development
+
+
