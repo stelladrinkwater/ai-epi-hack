@@ -19,7 +19,7 @@ AI systems now recommend and increasingly make consequential decisions, and we d
 
    ^ With open models we could try and test the question of "Is a model's reported certainty representative of how certain it actually predicts the answer to be?" (i.e. is the output misrepresenting the internal state)
 
-Thinking of ways people set their own internal confidence meters (brainstorming for applicable ideas):
+*Thinking of ways people set their own internal confidence meters (**brainstorming** for applicable ideas):*
 
 - If you apply a principle (or "law") to a many problems and in the past it has almost always given you the right answer, you will likely feel confident in your predictions when applying it to a new problem
   
