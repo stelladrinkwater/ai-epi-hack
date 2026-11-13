@@ -38,11 +38,11 @@ Insight from this: Can we get models to tell us what principles they are applyin
 5. Ask model to provide k (start with k=5, adjust later?) similar examples it is "drawing from"
    
     - Also, to help generate more ideas, ask what principles are being used/"how it knows"/how it set the certainty level
-    - Models will often just pull a percentage from an existing report. What to do about this?
+    - Models will often just pull a percentage from an existing report. Find a way to filter this out.
       
 6. Use an external system to rate how similar each of these similar examples actually is
 
-    - Create a similarity score
+    - Create a similarity score: Some type of vector that compares the keywords/results in the similar examples(?)
   
 7. Compare similarity score to model's stated confidence
    
