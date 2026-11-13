@@ -1,43 +1,6 @@
 # ai-epi-hack
 AI x Epistemics Research Sprint
 
-## External support evaluator (MVP)
-
-`support_eval.py` evaluates whether a model's stated confidence tracks the
-similarity of the situations it says it is drawing from. It is model-agnostic:
-collect answers however you like, save one JSON object per line, and pass that
-file to the scorer.
-
-Each JSONL row needs a `claim` (or `question`), `confidence` from 0 to 1, and
-`similar_examples`, a list of strings (or objects with a `text` field). An
-optional `id` is included in the report.
-
-```json
-{"id":"case-1","claim":"A treatment reduces symptoms in adults with condition X","confidence":0.8,"similar_examples":["A randomized trial found reduced symptoms in adults with condition X","A pediatric study of condition Y reported no effect"]}
-```
-
-Run it with Python 3:
-
-```sh
-python3 support_eval.py examples.jsonl --top-k 5 --output report.json
-```
-
-For each case, the evaluator computes TF-IDF cosine similarity between the
-claim and each model-cited example, selects the strongest `k`, then sums those
-similarities and divides by `k` to produce a 0–1 support score. The dataset
-report also includes Pearson and Spearman correlations between confidence and
-support score. Use multiple claims to get a meaningful correlation; a single
-case only has a per-claim support score.
-
-This first version is an external lexical baseline, not a truth checker:
-wording overlap can miss paraphrases and can overrate examples that share
-terms while differing in population, method, or result. It scores the model's
-selected examples rather than independently searching the literature. For a
-stronger evaluation, replace `cosine_tfidf` with a held-out embedding model or
-human relevance judgments, and include blind controls such as irrelevant,
-contradictory, and near-miss examples. Confidence should be compared with the
-support score, never included in its computation.
-
 ## Track 1: Model Epistemics & Decision-Making Evals
 Does the model understand how solid its claims are? Can you accurately measure its confidence in a decision and verify that against reality?
 Can you measure the gap between what a model implies and what it will defend (e.g. overselling, "flip-flopping", misrepresented evidence)?
@@ -89,6 +52,9 @@ Note: Used openrouter for steps 1-3
 - Allow chains of reasoning? Find a way to test these
 - Find a way to audit math (logic and foundations) (i'm not phrasing this well)
 
+
+# Code Notes (Codex):
+
 ### Toy implementation
 
 The `minimal-workflow/` folder runs this workflow against models on OpenRouter.
@@ -121,5 +87,42 @@ Each model is asked for a percentage; the runner converts it to 0–1. Models
 that do not return a percentage will stop the run with an error so the answer
 is not silently guessed. OpenRouter's chat-completions endpoint uses the
 standard bearer-key request format ([API reference](https://openrouter.ai/docs/api/api-reference/chat/send-chat-completion-request?explorer=true)).
+
+## External support evaluator (MVP)
+
+`support_eval.py` evaluates whether a model's stated confidence tracks the
+similarity of the situations it says it is drawing from. It is model-agnostic:
+collect answers however you like, save one JSON object per line, and pass that
+file to the scorer.
+
+Each JSONL row needs a `claim` (or `question`), `confidence` from 0 to 1, and
+`similar_examples`, a list of strings (or objects with a `text` field). An
+optional `id` is included in the report.
+
+```json
+{"id":"case-1","claim":"A treatment reduces symptoms in adults with condition X","confidence":0.8,"similar_examples":["A randomized trial found reduced symptoms in adults with condition X","A pediatric study of condition Y reported no effect"]}
+```
+
+Run it with Python 3:
+
+```sh
+python3 support_eval.py examples.jsonl --top-k 5 --output report.json
+```
+
+For each case, the evaluator computes TF-IDF cosine similarity between the
+claim and each model-cited example, selects the strongest `k`, then sums those
+similarities and divides by `k` to produce a 0–1 support score. The dataset
+report also includes Pearson and Spearman correlations between confidence and
+support score. Use multiple claims to get a meaningful correlation; a single
+case only has a per-claim support score.
+
+This first version is an external lexical baseline, not a truth checker:
+wording overlap can miss paraphrases and can overrate examples that share
+terms while differing in population, method, or result. It scores the model's
+selected examples rather than independently searching the literature. For a
+stronger evaluation, replace `cosine_tfidf` with a held-out embedding model or
+human relevance judgments, and include blind controls such as irrelevant,
+contradictory, and near-miss examples. Confidence should be compared with the
+support score, never included in its computation.
 
 
