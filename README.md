@@ -12,7 +12,8 @@ AI systems now recommend and increasingly make consequential decisions, and we d
 
 ### Eval Structure (Applying ML Principles):
 1. Prompt model to define how certain it is of an answer to a question
-2. Test this certainty against other sources or ground truth
+    -> Simplify this to just certainty of statements? (i.e. not asking the model to answer a q then state certainty, instead just give it a statement and ask "How certain is it that this statement is true"?)
+3. Test this certainty against other sources or ground truth
 
 ### To find workable questions fast:
 1. Generate a list of questions
