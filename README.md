@@ -21,12 +21,4 @@ Large language models (LLMs) can report confidence alongside a claim, but it is 
 Insight from this: Can we get models to tell us what principles they are applying, if any? Can we ask for similar examples that support their confidence rating? Can we measure *how* similar each similar example is, then how many their are? Can some metric like this (e.g. get top 5 most similar past known examples, measure how similar they are, add the similarities to get a past-data-similarity-score) tell us something about confidence?
 
 ## Eval Structure:
-Prompt model with a set of evidence statements and a claim and ask if the claim is supported and how certain the model is about its answer re: support (note this is separate from the certainty in the claim itself). Then, change the evidence (by deleting key facts, adding irrelevant facts, and injecting prompts to steer the results), rep-prompt, compare results
-   
-#### (Supporting Idea) To find hard questions fast:
-1. Generate a list of questions
-2. Ask the questions to a few different models
-3. See where the output differs
-    -> Use this subset of questions for eval-development
-
-Note: This file is 100% human written.
+Prompt model with a set of evidence statements and a claim and ask if the claim is supported and how certain the model is about its answer re: support (note this is separate from the certainty in the claim itself). Then, change the evidence (by deleting key facts, adding irrelevant facts, and injecting prompts to steer the results), re-prompt, compare results
