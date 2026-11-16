@@ -8,14 +8,7 @@ AI x Epistemics Research Sprint
 
 ### Note (on interpretation re: above): This is *not* about calibration of predictions, it's about measuring if confidence correlates to how well-supported the claim is.
 
-## Eval Structure (Applying ML Principles):
-1. Prompt model to define how certain it is of an answer to a question
-    -> Simplify this to just certainty of statements? (i.e. not asking the model to answer a question then state certainty, instead just giving it a statement and ask "How certain is it that this statement is true"?)
-2. Test certainty in a number of different ways:
-
-    Best Idea Currently: With open weight models -> Look for a signal of confidence in the activations(?)
-
-   ^ With open models we could try and test the question of "Is a model's reported certainty representative of how certain it actually predicts the answer to be?" (i.e. is the output misrepresenting the internal state)
+## Idea:
 
 *Thinking of ways people set their own internal confidence meters (**brainstorming** for applicable ideas):*
 
@@ -25,28 +18,13 @@ AI x Epistemics Research Sprint
 
 Insight from this: Can we get models to tell us what principles they are applying, if any? Can we ask for similar examples that support their confidence rating? Can we measure *how* similar each similar example is, then how many their are? Can some metric like this (e.g. get top 5 most similar past known examples, measure how similar they are, add the similarities to get a past-data-similarity-score) tell us something about confidence?
 
-## Minimal Workflow (testing a minimal version of this idea first):
-
-1. Ask model a question  
-2. Ask model to state certainty of answer
-3. Ask model to provide k (start with k=5, adjust later?) similar examples it is "drawing from"   
-    - Also, to help generate more ideas, ask what principles are being used/"how it knows"/how it set the certainty level
-    - Models will often just pull a percentage from an existing report. Find a way to filter this out.     
-4. Use an external system to rate how similar each of these similar examples actually is
-    - Create a similarity score: Some type of vector that compares the keywords/results in the similar examples(?)
-5. Compare similarity score to model's stated confidence
-
-Note: Used openrouter for steps 1-3
+## Eval Structure (Applying ML Principles):
+Prompt model with a set of evidence statements and a claim and ask if the claim is supported and how certain the model is about its answer re: support (note this is separate from the certainty in the claim itself). Then, change the evidence (by deleting key facts, adding irrelevant facts, and injecting prompts to steer the results), rep-prompt, compare results
    
 #### (Supporting Idea) To find hard questions fast:
 1. Generate a list of questions
 2. Ask the questions to a few different models
 3. See where the output differs
     -> Use this subset of questions for eval-development
-
-#### Ways to Extend support-score
-- Allow chains of reasoning? Find a way to test these
-- Find a way to audit math (logic and foundations) (i'm not phrasing this well)
-- Should we also check that the similar examples stated are real and accurately stated?
 
 Note: This file is 100% human written.
