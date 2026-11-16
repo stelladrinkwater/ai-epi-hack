@@ -23,7 +23,7 @@ to 10–30 minutes for core, 42 minutes–2.8 hours to 4–12 minutes for extend
 hours to 5–14 minutes for naive. These projections include batching overhead and are not measured;
 the runner reports a live estimate from observed throughput during each run.
 
-- SPEC.md SHA-256: `a56a76500c8bf1c3925a3a474e0af48aeb9e60ee5502bb95be4cc808666c3b9f`
+SPEC SHA-256: `a56a76500c8bf1c3925a3a474e0af48aeb9e60ee5502bb95be4cc808666c3b9f`
 
 ## 2026-11-15 — Audit sheets committed
 

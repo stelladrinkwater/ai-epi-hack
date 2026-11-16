@@ -412,7 +412,7 @@ def test_run_batch_requires_int_order_seed(tmp_path):
 
 
 def test_run_batch_sorts_before_shuffle_and_rows_carry_keys(tmp_path):
-    client, backend, _ = make_client(tmp_path, [VALID] * 4)
+    client, backend, _ = make_client(tmp_path, [VALID] * 4, concurrency=1)
     items = [item("c_4"), item("c_2"), item("c_3"), item("c_1")]
     execution = [entry["claim_id"] for entry in sorted(items, key=lambda e: e["claim_id"])]
     random.Random(9).shuffle(execution)
