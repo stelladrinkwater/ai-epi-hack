@@ -4,6 +4,152 @@ Changes to `SPEC.md` are recorded here with their reason, per SPEC §7. The §3/
 changes below were made before any experiment result existed; the TASK A2 entry
 above is the first result and records that ordering.
 
+## 2026-11-15 — Audit sheets committed
+
+Coder 1 is Onurcan from the two sheets only, with Onurcan review (audit/coded_onurcan.csv,
+audit/coded_onurcan_filler.csv); coder 2 is Stella, an independent human (audit/coded_stella.csv,
+audit/coded_stella_filler.csv). The driver reads audit/coded_onurcan.csv and
+audit/coded_stella.csv.
+
+- SPEC.md SHA-256: `62466513511f99d8dcd3279df094db1e411b51f576d6d5ba0503b80d10beb5d4`
+- audit/c_filler_audit.csv SHA-256: `ef617ffe38ab6a1cf7f0931e9474b62b807306f9e0bae498a22b42f617e3b831`
+- audit/c_filler_audit.md SHA-256: `973263e6598c6149e73f433e98eba59b4ab603c37c09e9e1ffcb02a92aa898c4`
+- audit/coded_onurcan_filler.csv SHA-256: `6346fcfc5a3bf241ba9704516dcf675d071db82276857828ff0e9fe3c7b0a219`
+- audit/coded_onurcan.csv SHA-256: `02d00cf6355546ca6e37a6e38bbe0d6301da08ad295099b0648f2676efd81fda`
+- audit/coded_stella.csv SHA-256: `eb995d186590d4d1b26e6e17177006645da943dda1a578d38bc9ab8f416ec59e`
+- audit/coded_stella_filler.csv SHA-256: `61f622d0a5a38c88ae069c4f50c7cc66fd8834fdaeab3e7dfda00a6fb5f5e38b`
+- audit/coded_template.csv SHA-256: `7bdf126ecab095181ad00ed64556d699e810359b172b8334bb3e5abd49a1479b`
+- audit/key.csv SHA-256: `399c01d15341f35ae25fd4647fcc37f25aec9eb944653080271ff07b52abe66b`
+- audit/m1_audit.csv SHA-256: `3cbff2d1989bc510c865eb2ed36d1d8966b5c8778201fc3302adccc58e4a6230`
+- audit/m1_audit.md SHA-256: `c16202184c78e073ed7cc24ca7073c40eb189dea0f0fac002af292f57f0cdfc7`
+- audit/README.md SHA-256: `df70b9e5ecb39afa5d6ffb49671e3aff669b07286f3c8f0920f111aedc5e76c6`
+- Stella's received m1_audit.md SHA-256: `baf5ad1f29531ebf2e1b3bdf62c95d4120cc46766ebcae0d8acfd440b84ae85b`
+
+Stella's sheets were committed exactly as received apart from the row-38 normalization: her
+"weak, but topically related" label is recorded as "weak" and the remark is kept in the notes.
+
+SPEC SHA-256: `62466513511f99d8dcd3279df094db1e411b51f576d6d5ba0503b80d10beb5d4`
+## 2026-11-15 — Analysis fixes after review 2
+
+The analysis driver and loaders were brought up to SPEC v1.6 before any analysis of the real log; no
+main-run result is analysed here. Fixed ids: RR1, RR2, RR3, RR4, RR5, RR6, RR7, RR8, RR10, RR11,
+RR12, RR13, RR18 (tests/test_review2_findings.py, 26 tests).
+
+- RR1: one provenance tuple per log and no duplicate result keys are refused.
+- RR2: M1 analysis needs a coder sheet whose SHA-256 is in CHANGELOG; either coder's "strong" is
+  excluded from the "without strong" key cell, and disagreements are counted.
+- RR3: flags are keyed by (claim id, condition); the stated number comes from `stated_number`.
+- RR4: per-(claim, condition) stability table with n_confidence and population SD, pooled and
+  per-condition degeneracy, Spearman dropped above 80% pooled degeneracy.
+- RR5: the driver refuses a dirty tree, a missing analysis-frozen tag or a hashed file that differs
+  from ANALYSIS.HASH, and the outputs record the commit.
+- RR6: bootstrap seed and 10,000 resamples come from config.yaml only and are recorded.
+- RR7: Holm always uses m = 2, a missing primary p-value counts as 1.0.
+- RR8: both sensitivity rules also recompute the two pooled primary contrasts.
+- RR10: --extended-log and --naive-log are analysed against the core filter and cut points, with no
+  p-values for naive vs warned.
+- RR11: correct-C0 confidence per class and a pooled M1 key cell.
+- RR12: 150 claims and 750/750/750/500/750 core result rows are asserted.
+- RR13: --log must name a file.
+- RR18: key_cell.csv carries counts per no-verdict outcome.
+
+SPEC SHA-256: `60c1ff3bd39a95ec4eafe7b0f13cafba49df2041cfbe2ffb0680d3685f395183`
+
+## 2026-11-15 — SPEC v1.6: amendments after the second review, before analysis
+
+Sections 5, 6, 7 and 8 amended after the second review and after the core run finished, before any
+analysis of the real log. Section 5: the M1 audit names the two coders (Onurcan, Stella), their
+sheets (audit/coded_onurcan.csv, audit/coded_stella.csv), the either-coder merge rule, the
+disagreement count and the fixed Stella fallback. Section 6: the per-(claim, condition) stability
+table with the number of confidence values and pooled plus per-condition degeneracy; Holm always
+with m = 2 and a missing primary p-value counted as 1.0; both sensitivity rules also recompute the
+two pooled primary contrasts; the NEI-vs-directional confidence comparison is always reported and
+the M1 key cell always per class as well as pooled; two-log analysis with the core log as the
+source of the filter, the cut points and the C0 baseline. Section 7: the analysis-driver
+preconditions (clean tree, analysis-frozen ancestor, ANALYSIS.HASH agreement, core-log shape,
+unique provenance tuple, no duplicate keys, --log a file, config-only seed and resample count,
+provenance recorded in the outputs, key_cell.csv counts per outcome) and the recorded shard-1
+health counts. Section 8: eight documented non-implementations and a note that the amendments
+were made after the core run and before any analysis of the real log.
+
+SPEC SHA-256: `60c1ff3bd39a95ec4eafe7b0f13cafba49df2041cfbe2ffb0680d3685f395183`
+
+## 2026-11-15 — Freeze preparation (naive prompt added)
+
+The naive prompt variant now exists, so the naive tier can run. prompts/verifier_system_naive.txt is
+a byte copy of verifier_system.txt with exactly one paragraph removed (the untrusted-data warning)
+and one adjacent blank line; no other prompt file changed (all three are byte-identical to tag
+`prompts-v1`). ANALYSIS.HASH now covers 23 files, including all four prompt files. No main-run
+result exists.
+
+- SPEC.md SHA-256: `18256ec0002974d20538526ec2f0aed233b4612414fe291ecf4342f87e475c70`
+- ANALYSIS.HASH SHA-256: `a1be28d74e6a85934a15af2e4f5f82e24c428cf1200a842550de9c7b4c5abdd2`
+- prompts/verifier_system.txt SHA-256: `70a8d8f58cf5203eceef690b1833dfa4db7ff206e8f4a657508063902417c731`
+- prompts/verifier_user.txt SHA-256: `f6ababfe4ad33dd4be2cc5386006637bcae90f9a70f1489143562078f98fe0ba`
+- prompts/m2_templates.json SHA-256: `8e8fa8ce550bb3a04784248e2231b58c5b74347fac50637f38d6c555b684861c`
+- prompts/verifier_system_naive.txt SHA-256: `a5ab168fac8393d77f8f469f786409fd0a9a35bc6eb0939b03a2ca9dcde6e7bd`
+- run.order_seed: 20261118
+- Tags at freeze preparation: analysis-v1, audit-sheets-v1, callayer-v2, callayer-v3, callayer-v4,
+  callayer-v5, conditions-v1, conditions-v1.1, conditions-v1.2, data-frozen, freeze-prep, prompts-v1,
+  review-1, review1-fixed, runner-v1, spec-v1.1, spec-v1.2, spec-v1.3, spec-v1.3.1, spec-v1.3.2,
+  spec-v1.3.3, spec-v1.4, spec-v1.5.
+
+Several entries carry the date 2026-11-15. The guard (`latest_spec_hash`) reads the date on each
+`##` heading, keeps the newest date, and on a tie keeps the first entry in file order; this entry
+is first in the file, so the guard reads the SPEC SHA-256 below. Confirmed with
+`scripts/run_experiment.py --check-guards`: the SPEC.md guard reports PASS.
+
+SPEC SHA-256: `18256ec0002974d20538526ec2f0aed233b4612414fe291ecf4342f87e475c70`
+
+## 2026-11-15 — Freeze preparation
+
+Freeze preparation for the main run; no main-run result exists. `run.order_seed` is set to
+`20261118` (the only config.yaml change). ANALYSIS.HASH now covers 22 files: config.yaml,
+scripts/run_experiment.py, the three analysis scripts added to its file list (run_analysis.py,
+common.py, make_flags.py), and every file under analysis/, src/ and prompts/. Figures are not
+included: matplotlib is unavailable in the project environment.
+
+- SPEC.md SHA-256: `18256ec0002974d20538526ec2f0aed233b4612414fe291ecf4342f87e475c70`
+- ANALYSIS.HASH SHA-256: `ba7dea27a20d9a4b59db86a5a280b47d0b567a0dc0a3584803edc1f82760888a`
+- prompts/verifier_system_naive.txt: absent, so no SHA-256 exists and the naive tier cannot run.
+- run.order_seed: 20261118
+- Tags at freeze preparation: analysis-v1, audit-sheets-v1, callayer-v2, callayer-v3, callayer-v4,
+  callayer-v5, conditions-v1, conditions-v1.1, conditions-v1.2, data-frozen, prompts-v1, review-1,
+  review1-fixed, runner-v1, spec-v1.1, spec-v1.2, spec-v1.3, spec-v1.3.1, spec-v1.3.2, spec-v1.3.3,
+  spec-v1.4, spec-v1.5.
+
+Several entries carry the date 2026-11-15. The guard (`latest_spec_hash`) reads the date on each
+`##` heading, keeps the newest date, and on a tie keeps the first entry in file order; this entry
+is first in the file, so the guard reads the SPEC SHA-256 below. Confirmed with
+`scripts/run_experiment.py --check-guards`: the SPEC.md guard reports PASS.
+
+SPEC SHA-256: `18256ec0002974d20538526ec2f0aed233b4612414fe291ecf4342f87e475c70`
+
+## 2026-11-15 — SPEC v1.5: amendments after the final review; no main-run result exists
+
+Sections 5, 6, 7 and 8 amended after the review-1 findings, before any main-run result exists: the
+M1 audit rule (audit sheets committed before any M1 output is opened), the health shard (1/10) of
+the core tier and its void-and-restart rule, order_seed/results_dir/cache fixed in config.yaml
+before the freeze, Clopper-Pearson replaced by raw counts and rates only for cells with fewer than
+10 contributing claims in either arm, the two primary contrasts pooled across classes with Holm
+over exactly those two p-values (per-class results exploratory, no p-values), the fixed-filter
+paired bootstrap whose interval excludes the C0 selection noise, the unmarked-4xx result-row rule
+and the five-result-rows-per-cell assertion, one log per tier and prompt variant, both sensitivity
+tables emitted with the primary table, exactly-five-row requirements for majority/stability/
+confidence SD, the filter accounting identity, ANALYSIS.HASH for the frozen analysis surface and
+the 1800 s cumulative sleep cap, C2's word count within +-2 of the M2 instruction, and two new
+limitations.
+
+SPEC SHA-256: `18256ec0002974d20538526ec2f0aed233b4612414fe291ecf4342f87e475c70`
+
+## 2026-11-15 — SPEC v1.4: amendments after the conditions review; no main-run result exists
+
+Sections 1, 5, 6, 7 and 8 amended: two primary contrasts (M1 - C0p, M2 - C2), core/extended tiers,
+the descriptor file, revised M2 outcome columns, a regex-based count of non-ok M2 replies, non-blind
+instruction coding, the length/absent-text result-row rules, and six new limitations.
+
+SPEC SHA-256: `909270eab3143531b6b6006a5c5faaf9c64489a3b84eedb6706e7608cf6fdac2`
+
 ## 2026-11-15 — SPEC v1.3.3: call-layer contract alignment
 
 Alignment of SPEC §7 with the tested call-layer contract: StateError on a cache/log disagreement,

@@ -11,3 +11,9 @@ build_subset_*/
 cache/
 # never commit credentials
 .env
+# run outputs: logs live outside the repo via run.results_dir
+results/raw/
+results/analysis/
+analysis/out/
+analysis/cutpoints.json
+analysis/CUTPOINTS.HASH

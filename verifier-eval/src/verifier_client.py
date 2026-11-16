@@ -48,6 +48,60 @@ BLOCKED_FINISH_REASONS = frozenset(
 MAX_BACKOFF_SECONDS = 60.0
 RETRY_AFTER_MAX_SECONDS = 900.0
 CACHE_REPLACE_ATTEMPTS = 3
+LOG_APPEND_ATTEMPTS = 4
+LOG_APPEND_BACKOFF_SECONDS = 0.05
+RUN_SLEEP_BUDGET_SECONDS = 1800.0
+
+_LOG_LOCKS: dict[str, "LogLock"] = {}
+_LOG_LOCKS_GUARD = threading.Lock()
+
+
+class LogLock:
+    """An exclusive OS lock on one log, held for the process lifetime.
+
+    A second *process* that opens the same log is refused before any API
+    call. Clients in this process share the one handle: they are already
+    serialized by the per-client append lock.
+    """
+
+    def __init__(self, path: Path) -> None:
+        self.path = Path(path)
+        self._handle = open(self.path, "a+b")
+        self._handle.seek(0, os.SEEK_END)
+        if self._handle.tell() == 0:
+            self._handle.write(b"\0")
+            self._handle.flush()
+        self._handle.seek(0)
+        try:
+            if os.name == "nt":  # pragma: no cover - platform branch
+                import msvcrt
+
+                msvcrt.locking(self._handle.fileno(), msvcrt.LK_NBLCK, 1)
+            else:  # pragma: no cover - platform branch
+                import fcntl
+
+                fcntl.flock(self._handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError:
+            self._handle.close()
+            raise
+
+
+def acquire_log_lock(log_path: Path) -> LogLock:
+    """Take the process-wide lock for ``log_path`` or raise StateError."""
+    key = os.path.normcase(str(Path(log_path).resolve()))
+    with _LOG_LOCKS_GUARD:
+        existing = _LOG_LOCKS.get(key)
+        if existing is not None:
+            return existing
+        try:
+            lock = LogLock(Path(key + ".lock"))
+        except OSError as exc:
+            raise StateError(
+                f"another process holds the log {log_path}; refusing to write "
+                "concurrent rows"
+            ) from exc
+        _LOG_LOCKS[key] = lock
+        return lock
 
 
 class ConfigError(ValueError):
@@ -297,11 +351,14 @@ class VerifierClient:
         self.prompts = prompts
         self.log_path = Path(log_path)
         self.log_path.parent.mkdir(parents=True, exist_ok=True)
+        # One writer per log across processes (SPEC v1.5 §7).
+        self.log_lock = acquire_log_lock(self.log_path)
         self.cache_dir = None if cache_dir is None else Path(cache_dir)
         self.prompt_store = (
             None if self.cache_dir is None else self.cache_dir.parent / "prompts_rendered"
         )
         self._sleep = sleep
+        self._sleep_total = 0.0
         self._cache: dict[str, dict[str, Any]] = {}
         self._state_lock = threading.RLock()
         self._log_lock = threading.Lock()
@@ -386,11 +443,30 @@ class VerifierClient:
             + output_tokens * table["output_per_mtok"]
         ) / 1_000_000
 
+    def _sleep_for(self, delay: float) -> None:
+        """Sleep, enforcing the per-run cumulative cap (SPEC v1.5 §7)."""
+        if self._sleep_total + delay > RUN_SLEEP_BUDGET_SECONDS:
+            raise RunAborted(
+                0,
+                f"cumulative retry sleep would exceed {RUN_SLEEP_BUDGET_SECONDS:.0f}s",
+            )
+        self._sleep_total += delay
+        self._sleep(delay)
+
     def _log(self, row: dict[str, Any]) -> None:
         line = json.dumps(_redact_row(row), ensure_ascii=False)
         with self._log_lock:
-            with self.log_path.open("a", encoding="utf-8", newline="\n") as fh:
-                fh.write(line + "\n")
+            for attempt in range(1, LOG_APPEND_ATTEMPTS + 1):
+                try:
+                    with self.log_path.open("a", encoding="utf-8", newline="\n") as fh:
+                        fh.write(line + "\n")
+                    return
+                except PermissionError:
+                    # A sync client or scanner holds the log for a moment; the
+                    # paid row must not be lost, so wait and append again.
+                    if attempt == LOG_APPEND_ATTEMPTS:
+                        raise
+                    self._sleep(LOG_APPEND_BACKOFF_SECONDS * attempt)
 
     def _row(
         self,
@@ -588,7 +664,8 @@ class VerifierClient:
                                 "blocked" if marked else "api_error"
                             ),
                             used_attempt_idx=attempt_idx, attempts=attempt_idx,
-                            is_result=marked, finish_reason=None,
+                            is_result=marked or (in_batch and is_last_pass),
+                            finish_reason=None,
                             http_status=status, order_seed=order_seed,
                             resume_pass=resume_pass, error=str(call_error),
                         )
@@ -624,7 +701,7 @@ class VerifierClient:
                             and call_error.retry_after is not None
                             else _backoff_seconds(attempt_idx)
                         )
-                        self._sleep(delay)
+                        self._sleep_for(delay)
                         continue
                     row = self._row(
                         claim_id=claim_id, condition=condition,
@@ -666,7 +743,7 @@ class VerifierClient:
                             )
                         )
                         attempt_idx += 1
-                        self._sleep(_backoff_seconds(attempt_idx))
+                        self._sleep_for(_backoff_seconds(attempt_idx))
                         continue
                     row = self._row(
                         claim_id=claim_id, condition=condition,
@@ -910,41 +987,38 @@ class VerifierClient:
         rows_by_key: dict[str, dict[str, Any]] = dict(recorded)
         pending = [item for item in ordered if self._unit_cache_key(item) not in done]
 
-        consecutive_4xx = 0
-        for item in pending:
-            row = self.verify(
-                **item, order_seed=order_seed, resume_pass=0,
-                is_last_pass=(resume_passes == 0), in_batch=True,
-            )
-            rows_by_key[row["cache_key"]] = row
-            status = row.get("http_status")
-            if (
-                row["outcome"] == "api_error"
-                and isinstance(status, int)
-                and 400 <= status < 500
-            ):
-                consecutive_4xx += 1
+        for pass_index in range(resume_passes + 1):
+            if pass_index == 0:
+                batch = pending
             else:
-                consecutive_4xx = 0
-            if consecutive_4xx >= 3:
-                raise RunAborted(
-                    int(status), "three consecutive unmarked 4xx responses"
-                )
-
-        for pass_index in range(1, resume_passes + 1):
-            failing = [
-                item for item in pending
-                if rows_by_key[self._unit_cache_key(item)]["outcome"] == "api_error"
-            ]
-            if not failing:
+                batch = [
+                    item for item in pending
+                    if rows_by_key[self._unit_cache_key(item)]["outcome"] == "api_error"
+                ]
+            if not batch:
                 break
             final = pass_index == resume_passes
-            for item in failing:
+            # The abort counter is per pass and resets on any success.
+            consecutive_4xx = 0
+            for item in batch:
                 row = self.verify(
-                    **item, order_seed=order_seed,
-                    resume_pass=pass_index, is_last_pass=final, in_batch=True,
+                    **item, order_seed=order_seed, resume_pass=pass_index,
+                    is_last_pass=final, in_batch=True,
                 )
                 rows_by_key[row["cache_key"]] = row
+                status = row.get("http_status")
+                if (
+                    row["outcome"] == "api_error"
+                    and isinstance(status, int)
+                    and 400 <= status < 500
+                ):
+                    consecutive_4xx += 1
+                else:
+                    consecutive_4xx = 0
+                if consecutive_4xx >= 3:
+                    raise RunAborted(
+                        int(status), "three consecutive unmarked 4xx responses"
+                    )
 
         return [
             rows_by_key[key]

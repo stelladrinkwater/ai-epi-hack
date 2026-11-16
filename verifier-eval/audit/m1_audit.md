@@ -1,0 +1,878 @@
+# M1 leftover-evidence audit
+
+Code `leftover_support` as none / weak / strong (see audit/README.md).
+Do not open audit/key.csv until this sheet is coded.
+
+## Row 1
+
+**Claim:** CX3CR1 on the Th2 cells promotes T cell survival
+
+**Remaining evidence:**
+
+1. Allergic asthma is a T helper type 2 (T(H)2)-dominated disease of the lung.
+2. In people with asthma, a fraction of CD4(+) T cells express the CX3CL1 receptor, CX3CR1, and CX3CL1 expression is increased in airway smooth muscle, lung endothelium and epithelium upon allergen challenge.
+3. Here we found that untreated CX3CR1-deficient mice or wild-type (WT) mice treated with CX3CR1-blocking reagents show reduced lung disease upon allergen sensitization and challenge.
+4. Transfer of WT CD4(+) T cells into CX3CR1-deficient mice restored the cardinal features of asthma, and CX3CR1-blocking reagents prevented airway inflammation in CX3CR1-deficient recipients injected with WT T(H)2 cells.
+5. CX3CR1-induced survival was also observed for T(H)1 cells upon airway inflammation but not under homeostatic conditions or upon peripheral inflammation.
+6. Therefore, CX3CR1 and CX3CL1 may represent attractive therapeutic targets in asthma.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 2
+
+**Claim:** There is no relation between Erythromycin use and hypertrophic pyloric stenosis.
+
+**Remaining evidence:**
+
+1. OBJECTIVE To assess the association between use of macrolide antibiotics in mothers and infants from pregnancy onset until 120 days after birth and infantile hypertrophic pyloric stenosis (IHPS).   
+
+2. DESIGN Nationwide register based cohort study.   
+
+3. SETTING Denmark, 1996-2011.   
+
+4. PARTICIPANTS 999,378 liveborn singletons and linked individual level information on macrolide prescriptions (maternal use during pregnancy, n=30,091; maternal use after birth, n=21,557; use in infants, n=6591), surgery for IHPS, and potential confounders.   
+
+5. MAIN OUTCOME MEASURES Surgery for IHPS by three categories of macrolide use: in mothers during pregnancy, in mothers after birth, and in infants after birth.   
+
+6. RESULTS 880 infants developed IHPS (0.9 cases per 1000 births).
+7. Compared with infants with no use of macrolides, the adjusted rate ratio for IHPS in infants with use of macrolides during days 0 to 13 after birth was 29.8 (95% confidence interval 16.4 to 54.1) and during days 14 to 120 was 3.24 (1.20 to 8.74); the corresponding absolute risk differences were 24.4 (95% confidence interval 13.0 to 44.1) and 0.65 (0.06 to 2.21) cases per 1000 infants exposed to macrolides, respectively.
+8. The rate ratio for maternal use of macrolides for days 0 to 13 after birth was 3.49 (1.92 to 6.34) and for days 14 to 120 was 0.70 (0.26 to 1.90); the corresponding absolute risk differences were 2.15 (0.82 to 4.64) and -0.11 (-0.26 to 0.31).
+9. The rate ratios for maternal use of macrolides during pregnancy were 1.02 (0.65 to 1.59) for weeks 0 to 27 and 1.77 (0.95 to 3.31) for weeks 28 to birth; the corresponding absolute risk differences were 0.01 (-0.31 to 0.50) and 0.67 (-0.06 to 2.02).   
+
+10. A possible association was also found with use during late pregnancy.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 3
+
+**Claim:** Androgenetic haploid mouse embryonic stem cells (ESCs) can be derived and genetically manipulated in vitro.
+
+**Remaining evidence:**
+
+1. Haploid cells are amenable for genetic analysis.
+2. Recent success in the derivation of mouse haploid embryonic stem cells (haESCs) via parthenogenesis has enabled genetic screening in mammalian cells.
+3. However, successful generation of live animals from these haESCs, which is needed to extend the genetic analysis to the organism level, has not been achieved.
+4. Here, we report the derivation of haESCs from androgenetic blastocysts.
+5. These cells, designated as AG-haESCs, partially maintain paternal imprints, express classical ESC pluripotency markers, and contribute to various tissues, including the germline, upon injection into diploid blastocysts.
+6. Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 4
+
+**Claim:** BRCA 1 mutation carriers' risk of breast and ovarian cancer depends on where the mutation is located.
+
+**Remaining evidence:**
+
+1. IMPORTANCE Limited information about the relationship between specific mutations in BRCA1 or BRCA2 (BRCA1/2) and cancer risk exists.   
+
+2. OBJECTIVE To identify mutation-specific cancer risks for carriers of BRCA1/2.   
+
+3. DESIGN, SETTING, AND PARTICIPANTS Observational study of women who were ascertained between 1937 and 2011 (median, 1999) and found to carry disease-associated BRCA1 or BRCA2 mutations.
+4. The international sample comprised 19,581 carriers of BRCA1 mutations and 11,900 carriers of BRCA2 mutations from 55 centers in 33 countries on 6 continents.
+5. We estimated hazard ratios for breast and ovarian cancer based on mutation type, function, and nucleotide position.
+6. We also estimated RHR, the ratio of breast vs ovarian cancer hazard ratios.
+7. A value of RHR greater than 1 indicated elevated breast cancer risk; a value of RHR less than 1 indicated elevated ovarian cancer risk.   
+8. EXPOSURES Mutations of BRCA1 or BRCA2.   
+
+9. MAIN OUTCOMES AND MEASURES Breast and ovarian cancer risks.   
+
+10. RESULTS Among BRCA1 mutation carriers, 9052 women (46%) were diagnosed with breast cancer, 2317 (12%) with ovarian cancer, 1041 (5%) with breast and ovarian cancer, and 7171 (37%) without cancer.
+11. Among BRCA2 mutation carriers, 6180 women (52%) were diagnosed with breast cancer, 682 (6%) with ovarian cancer, 272 (2%) with breast and ovarian cancer, and 4766 (40%) without cancer.
+12. In BRCA1, we identified 3 breast cancer cluster regions (BCCRs) located at c.179 to c.505 (BCCR1; RHR = 1.46; 95% CI, 1.22-1.74; P = 2 × 10(-6)), c.4328 to c.4945 (BCCR2; RHR = 1.34; 95% CI, 1.01-1.78; P = .04), and c. 5261 to c.5563 (BCCR2', RHR = 1.38; 95% CI, 1.22-1.55; P = 6 × 10(-9)).
+13. We also identified an ovarian cancer cluster region (OCCR) from c.1380 to c.4062 (approximately exon 11) with RHR = 0.62 (95% CI, 0.56-0.70; P = 9 × 10(-17)).
+14. In BRCA2, we observed multiple BCCRs spanning c.1 to c.596 (BCCR1; RHR = 1.71; 95% CI, 1.06-2.78; P = .03), c.772 to c.1806 (BCCR1'; RHR = 1.63; 95% CI, 1.10-2.40; P = .01), and c.7394 to c.8904 (BCCR2; RHR = 2.31; 95% CI, 1.69-3.16; P = .00002).
+15. We also identified 3 OCCRs: the first (OCCR1) spanned c.3249 to c.5681 that was adjacent to c.5946delT (6174delT; RHR = 0.51; 95% CI, 0.44-0.60; P = 6 × 10(-17)).
+16. The second OCCR spanned c.6645 to c.7471 (OCCR2; RHR = 0.57; 95% CI, 0.41-0.80; P = .001).
+17. With appropriate validation, these data may have implications for risk assessment and cancer prevention decision making for carriers of BRCA1 and BRCA2 mutations.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 5
+
+**Claim:** Diabetes remission occurs less in people treated with conventional therapy than in people treated with laparoscopic adjustable gastric banding surgery.
+
+**Remaining evidence:**
+
+1. CONTEXT Observational studies suggest that surgically induced loss of weight may be effective therapy for type 2 diabetes.   
+
+2. OBJECTIVE To determine if surgically induced weight loss results in better glycemic control and less need for diabetes medications than conventional approaches to weight loss and diabetes control.   
+
+3. DESIGN, SETTING, AND PARTICIPANTS Unblinded randomized controlled trial conducted from December 2002 through December 2006 at the University Obesity Research Center in Australia, with general community recruitment to established treatment programs.
+4. Participants were 60 obese patients (BMI >30 and <40) with recently diagnosed (<2 years) type 2 diabetes.   
+
+5. INTERVENTIONS Conventional diabetes therapy with a focus on weight loss by lifestyle change vs laparoscopic adjustable gastric banding with conventional diabetes care.   
+
+6. MAIN OUTCOME MEASURES Remission of type 2 diabetes (fasting glucose level <126 mg/dL [7.0 mmol/L] and glycated hemoglobin [HbA1c] value <6.2% while taking no glycemic therapy).
+7. Secondary measures included weight and components of the metabolic syndrome.
+8. Analysis was by intention-to-treat.   
+
+9. RESULTS Of the 60 patients enrolled, 55 (92%) completed the 2-year follow-up.
+10. Surgical and conventional-therapy groups lost a mean (SD) of 20.7% (8.6%) and 1.7% (5.2%) of weight, respectively, at 2 years (P < .001).
+11. Remission of type 2 diabetes was related to weight loss (R2 = 0.46, P < .001) and lower baseline HbA1c levels (combined R2 = 0.52, P < .001).
+12. There were no serious complications in either group.   
+
+13. These results need to be confirmed in a larger, more diverse population and have long-term efficacy assessed.   
+
+14. TRIAL REGISTRATION actr.org Identifier: ACTRN012605000159651.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 6
+
+**Claim:** Ultrasound guidance significantly raises the number of traumatic procedures when attempting needle insertion.
+
+**Remaining evidence:**
+
+1. OBJECTIVE To determine whether ultrasound imaging can reduce the risk of failed lumbar punctures or epidural catheterisations, when compared with standard palpation methods, and whether ultrasound imaging can reduce traumatic procedures, insertion attempts, and needle redirections.   
+
+2. DESIGN Systematic review and meta-analysis of randomised controlled trials.   
+
+3. DATA SOURCES Ovid Medline, Embase, and Cochrane Central Register of Controlled Trials up to May 2012, without restriction by language or publication status.   
+4. REVIEW METHODS Randomised trials that compared ultrasound imaging with standard methods (no imaging) in the performance of a lumbar puncture or epidural catheterisation were identified.   
+
+5. RESULTS 14 studies with a total of 1334 patients were included (674 patients assigned to the ultrasound group, 660 to the control group).
+6. Five studies evaluated lumbar punctures and nine evaluated epidural catheterisations.
+7. Six of 624 procedures conducted in the ultrasound group failed; 44 of 610 procedures in the control group failed.
+8. Ultrasound may be a useful adjunct for these procedures.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 7
+
+**Claim:** Lice attenuated SIV vaccines induce a stronger antigen-specific T cell response in lymph node cells.
+
+**Remaining evidence:**
+
+1. Live attenuated simian immunodeficiency virus (SIV) vaccines (LAVs) remain the most efficacious of all vaccines in nonhuman primate models of HIV and AIDS, yet the basis of their robust protection remains poorly understood.
+2. We found that maintenance of protective T cell responses is associated with persistent LAV replication in the lymph node, which occurs almost exclusively in follicular helper T cells.
+3. Thus, effective LAVs maintain lymphoid tissue-based, effector-differentiated, SIV-specific T cells that intercept and suppress early wild-type SIV amplification and, if present in sufficient frequencies, can completely control and perhaps clear infection, an observation that provides a rationale for the development of safe, persistent vectors that can elicit and maintain such responses.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 8
+
+**Claim:** AIRE is expressed in some skin tumors.
+
+**Remaining evidence:**
+
+1. Expression of the intermediate filament protein keratin 17 (K17) is robustly upregulated in inflammatory skin diseases and in many tumors originating in stratified and pseudostratified epithelia.
+2. The induction of Aire mRNA in keratinocytes depends on a functional interaction between K17 and the heterogeneous nuclear ribonucleoprotein hnRNP K. Further, K17 colocalizes with Aire protein in the nucleus of tumor-prone keratinocytes, and each factor is bound to a specific promoter region featuring an NF-κB consensus sequence in a relevant subset of K17- and Aire-dependent proinflammatory genes.
+3. These findings provide radically new insight into keratin intermediate filament and Aire function, along with a molecular basis for the K17-dependent amplification of inflammatory and immune responses in diseased epithelia.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 9
+
+**Claim:** The risk of male prisoners harming themselves is ten times that of female prisoners.
+
+**Remaining evidence:**
+
+1. BACKGROUND Self-harm and suicide are common in prisoners, yet robust information on the full extent and characteristics of people at risk of self-harm is scant.
+2. Furthermore, understanding how frequently self-harm is followed by suicide, and in which prisoners this progression is most likely to happen, is important.
+3. We did a case-control study of all prisoners in England and Wales to ascertain the prevalence of self-harm in this population, associated risk factors, clustering effects, and risk of subsequent suicide after self-harm.   
+
+4. METHODS Records of self-harm incidents in all prisons in England and Wales were gathered routinely between January, 2004, and December, 2009.
+5. We did a case-control comparison of prisoners who self-harmed and those who did not between January, 2006, and December, 2009.
+6. We also used a Bayesian approach to look at clustering of people who self-harmed.
+7. Prisoners who self-harmed and subsequently died by suicide in prison were compared with other inmates who self-harmed.   
+
+8. Repetition of self-harm was common, particularly in women and teenage girls, in whom a subgroup of 102 prisoners accounted for 17,307 episodes.
+9. In both sexes, self-harm was associated with younger age, white ethnic origin, prison type, and a life sentence or being unsentenced; in female inmates, committing a violent offence against an individual was also a factor.
+10. Substantial evidence was noted of clustering in time and location of prisoners who self-harmed (adjusted intra-class correlation 0·15, 95% CI 0·11-0·18).
+11. 109 subsequent suicides in prison were reported in individuals who self-harmed; the risk was higher in those who self-harmed than in the general prison population, and more than half the deaths occurred within a month of self-harm.
+12. Risk factors for suicide after self-harm in male prisoners were older age and a previous self-harm incident of high or moderate lethality; in female inmates, a history of more than five self-harm incidents within a year was associated with subsequent suicide.   
+
+13. INTERPRETATION The burden of self-harm in prisoners is substantial, particularly in women.
+14. Self-harm in prison is associated with subsequent suicide in this setting.
+15. Prevention and treatment of self-harm in prisoners is an essential component of suicide prevention in prisons.   
+
+16. FUNDING Wellcome Trust, National Institute for Health Research, National Offender Management Service, and Department of Health.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 10
+
+**Claim:** Active Ly49Q induces neutrophil polarization.
+
+**Remaining evidence:**
+
+1. Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation.
+2. During the steady state, Ly49Q inhibited neutrophil adhesion by preventing focal-complex formation, likely by inhibiting Src and PI3 kinases.
+3. However, in the presence of inflammatory stimuli, Ly49Q mediated rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner.
+4. These opposite functions appeared to be mediated by distinct use of effector phosphatase SHP-1 and SHP-2.
+5. Ly49Q-dependent polarization and migration were affected by Ly49Q regulation of membrane raft functions.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 11
+
+**Claim:** The risk of cancer rises with level of alcohol consumption.
+
+**Remaining evidence:**
+
+1. Summary Background Alcohol use is a leading risk factor for death and disability, but its overall association with health remains complex given the possible protective effects of moderate alcohol consumption on some conditions.
+2. With our comprehensive approach to health accounting within the Global Burden of Diseases, Injuries, and Risk Factors Study 2016, we generated improved estimates of alcohol use and alcohol-attributable deaths and disability-adjusted life-years (DALYs) for 195 locations from 1990 to 2016, for both sexes and for 5-year age groups between the ages of 15 years and 95 years and older.
+3. Methods Using 694 data sources of individual and population-level alcohol consumption, along with 592 prospective and retrospective studies on the risk of alcohol use, we produced estimates of the prevalence of current drinking, abstention, the distribution of alcohol consumption among current drinkers in standard drinks daily (defined as 10 g of pure ethyl alcohol), and alcohol-attributable deaths and DALYs.
+4. We made several methodological improvements compared with previous estimates: first, we adjusted alcohol sales estimates to take into account tourist and unrecorded consumption; second, we did a new meta-analysis of relative risks for 23 health outcomes associated with alcohol use; and third, we developed a new method to quantify the level of alcohol consumption that minimises the overall risk to individual health.
+5. Findings Globally, alcohol use was the seventh leading risk factor for both deaths and DALYs in 2016, accounting for 2·2% (95% uncertainty interval [UI] 1·5–3·0) of age-standardised female deaths and 6·8% (5·8–8·0) of age-standardised male deaths.
+6. Among the population aged 15–49 years, alcohol use was the leading risk factor globally in 2016, with 3·8% (95% UI 3·2–4·3) of female deaths and 12·2% (10·8–13·6) of male deaths attributable to alcohol use.
+7. For the population aged 15–49 years, female attributable DALYs were 2·3% (95% UI 2·0–2·6) and male attributable DALYs were 8·9% (7·8–9·9).
+8. The three leading causes of attributable deaths in this age group were tuberculosis (1·4% [95% UI 1·0–1·7] of total deaths), road injuries (1·2% [0·7–1·9]), and self-harm (1·1% [0·6–1·5]).
+9. The level of alcohol consumption that minimised harm across health outcomes was zero (95% UI 0·0–0·8) standard drinks per week.
+10. Interpretation Alcohol use is a leading risk factor for global disease burden and causes substantial health loss.
+11. These results suggest that alcohol control policies might need to be revised worldwide, refocusing on efforts to lower overall population-level consumption.
+12. Funding Bill & Melinda Gates Foundation.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 12
+
+**Claim:** Phase information is useful for predicting donor-recipient matches in organ transplantation.
+
+**Remaining evidence:**
+
+1. Background  Current criteria for the selection of unrelated donors for hematopoietic cell transplantation (HCT) include matching for the alleles of each human leukocyte antigen (HLA) locus within the major histocompatibility complex (MHC).
+2. Graft-versus-host disease (GVHD), however, remains a significant and potentially life-threatening complication even after HLA-identical unrelated HCT.
+3. The MHC harbors more than 400 genes, but the total number of transplantation antigens is unknown.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 13
+
+**Claim:** N348I mutations reduce resistance to nevirapine.
+
+**Remaining evidence:**
+
+1. Background The catalytically active 66-kDa subunit of the human immunodeficiency virus type 1 (HIV-1) reverse transcriptase (RT) consists of DNA polymerase, connection, and ribonuclease H (RNase H) domains.
+2. Almost all known RT inhibitor resistance mutations identified to date map to the polymerase domain of the enzyme.
+3. However, the connection and RNase H domains are not routinely analysed in clinical samples and none of the genotyping assays available for patient management sequence the entire RT coding region.
+4. The British Columbia Centre for Excellence in HIV/AIDS (the Centre) genotypes clinical isolates up to codon 400 in RT, and our retrospective statistical analyses of the Centre’s database have identified an N348I mutation in the RT connection domain in treatment-experienced individuals.
+5. The objective of this multidisciplinary study was to establish the in vivo relevance of this mutation and its role in drug resistance.
+6. Methods and Findings The prevalence of N348I in clinical isolates, the time taken for it to emerge under selective drug pressure, and its association with changes in viral load, specific drug treatment, and known drug resistance mutations was analysed from genotypes, viral loads, and treatment histories from the Centre’s database.
+7. N348I increased in prevalence from below 1% in 368 treatmentnao ¨ve individuals to 12.1% in 1,009 treatment-experienced patients (p ¼ 7.7 3 10 � 12 ).
+8. N348I appeared early in therapy and was highly associated with thymidine analogue mutations (TAMs) M41L and T215Y/F (p , 0.001), the lamivudine resistance mutations M184V/I (p , 0.001), and non-nucleoside RTI (NNRTI) resistance mutations K103N and Y181C/I (p , 0.001).
+9. The association with TAMs and NNRTI resistance mutations was consistent with the selection of N348I in patients treated with regimens that included both zidovudine and nevirapine (odds ratio 2.62, 95% confidence interval 1.43–4.81).
+10. The appearance of N348I was associated with a significant increase in viral load (p , 0.001), which was as large as the viral load increases observed for any of the TAMs.
+11. However, this analysis did not account for the simultaneous selection of other RT or protease inhibitor resistance mutations on viral load.
+12. To delineate the role of this mutation in RT inhibitor resistance, N348I was introduced into HIV-1 molecular clones containing different genetic backbones.
+13. N348I decreased zidovudine susceptibility 2- to 4-fold in the context of wildtype HIV-1 or when combined with TAMs.
+14. Biochemical analyses of recombinant RT containing N348I provide supporting evidence for the role of this mutation in zidovudine and NNRTI resistance and give some insight into the molecular mechanism of resistance.
+15. Conclusions
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 14
+
+**Claim:** LDL cholesterol has no involvement in the development of cardiovascular disease.
+
+**Remaining evidence:**
+
+1. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets.
+2. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   
+
+3. METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria.
+4. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs.
+5. We did replication studies in two independent populations consisting of up to 4979 participants.
+6. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   
+
+7. FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3.
+8. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]).
+9. Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations.
+10. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3.
+11. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 15
+
+**Claim:** Antimicrobial agents are less effective due to the pressure of antimicrobial usage.
+
+**Remaining evidence:**
+
+1. But it may not be that simple.  
+2. The idea that reducing antibiotic use would redress the problem formed part of a positive response on the part of the United Kingdom government to the House of Lords report,1 including a public information campaign, surveillance of resistance along the food chain, targets with respect to hospital acquired infections, and setting up of an overarching advisory body on all aspects of antibiotic use.
+3. However, the concept of overuse has proved too simplistic, for, although the evidence of overprescribing as the …
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 16
+
+**Claim:** UCB T cells reduce TCR diversity after transplantation.
+
+**Remaining evidence:**
+
+1. Delayed T cell recovery and restricted T cell receptor (TCR) diversity after allogeneic hematopoietic stem cell transplantation (allo-HSCT) are associated with increased risks of infection and cancer relapse.
+2. Technical challenges have limited faithful measurement of TCR diversity after allo-HSCT.
+3. Here we combined 5' rapid amplification of complementary DNA ends PCR with deep sequencing to quantify TCR diversity in 28 recipients of allo-HSCT using a single oligonucleotide pair.
+4. Analysis of duplicate blood samples confirmed that we accurately determined the frequency of individual TCRs.
+5. After 12 months, these deficiencies had improved for the CD4(+) but not the CD8(+) T cell compartment.
+6. Overall, this method provides unprecedented views of T cell repertoire recovery after allo-HSCT and may identify patients at high risk of infection or relapse.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 17
+
+**Claim:** Whole brain radiotherapy increases the occurrence of new brain metastases.
+
+**Remaining evidence:**
+
+1. CONTEXT In patients with brain metastases, it is unclear whether adding up-front whole-brain radiation therapy (WBRT) to stereotactic radiosurgery (SRS) has beneficial effects on mortality or neurologic function compared with SRS alone.   
+
+2. OBJECTIVE To determine if WBRT combined with SRS results in improvements in survival, brain tumor control, functional preservation rate, and frequency of neurologic death.   
+
+3. DESIGN, SETTING, AND PATIENTS Randomized controlled trial of 132 patients with 1 to 4 brain metastases, each less than 3 cm in diameter, enrolled at 11 hospitals in Japan between October 1999 and December 2003.   
+
+4. INTERVENTIONS Patients were randomly assigned to receive WBRT plus SRS (65 patients) or SRS alone (67 patients).   
+
+5. MAIN OUTCOME MEASURES The primary end point was overall survival; secondary end points were brain tumor recurrence, salvage brain treatment, functional preservation, toxic effects of radiation, and cause of death.   
+
+6. RESULTS The median survival time and the 1-year actuarial survival rate were 7.5 months and 38.5% (95% confidence interval, 26.7%-50.3%) in the WBRT + SRS group and 8.0 months and 28.4% (95% confidence interval, 17.6%-39.2%) for SRS alone (P = .42).
+7. Salvage brain treatment was less frequently required in the WBRT + SRS group (n = 10) than with SRS alone (n = 29) (P<.001).
+8. Death was attributed to neurologic causes in 22.8% of patients in the WBRT + SRS group and in 19.3% of those treated with SRS alone (P = .64).
+9. There were no significant differences in systemic and neurologic functional preservation and toxic effects of radiation.   
+
+10. Consequently, salvage treatment is frequently required when up-front WBRT is not used.   
+
+11. TRIAL REGISTRATION umin.ac.jp/ctr Identifier: C000000412.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 18
+
+**Claim:** ALDH1 expression is associated with poorer prognosis for breast cancer primary tumors.
+
+**Remaining evidence:**
+
+1. Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells.
+2. Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties.
+3. These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model.
+4. In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.
+5. These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 19
+
+**Claim:** 1/2000 in UK have abnormal PrP positivity.
+
+**Remaining evidence:**
+
+1. OBJECTIVES To carry out a further survey of archived appendix samples to understand better the differences between existing estimates of the prevalence of subclinical infection with prions after the bovine spongiform encephalopathy epizootic and to see whether a broader birth cohort was affected, and to understand better the implications for the management of blood and blood products and for the handling of surgical instruments.   
+
+2. DESIGN Irreversibly unlinked and anonymised large scale survey of archived appendix samples.   
+
+3. SETTING Archived appendix samples from the pathology departments of 41 UK hospitals participating in the earlier survey, and additional hospitals in regions with lower levels of participation in that survey.   
+4. SAMPLE 32,441 archived appendix samples fixed in formalin and embedded in paraffin and tested for the presence of abnormal prion protein (PrP).   
+
+5. The prevalence in those born in 1941-60 (733 per million, 269 to 1596 per million) did not differ significantly from those born between 1961 and 1985 (412 per million, 198 to 758 per million) and was similar in both sexes and across the three broad geographical areas sampled.
+6. Genetic testing of the positive specimens for the genotype at PRNP codon 129 revealed a high proportion that were valine homozygous compared with the frequency in the normal population, and in stark contrast with confirmed clinical cases of vCJD, all of which were methionine homozygous at PRNP codon 129.   
+
+7. CONCLUSIONS This study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population compared with the 177 vCJD cases to date.
+8. These findings have important implications for the management of blood and blood products and for the handling of surgical instruments.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 20
+
+**Claim:** Headaches are correlated with cognitive impairment.
+
+**Remaining evidence:**
+
+1. OBJECTIVE To evaluate the association of overall and specific headaches with volume of white matter hyperintensities, brain infarcts, and cognition.   
+
+2. DESIGN Population based, cross sectional study.   
+
+3. SETTING Epidemiology of Vascular Ageing study, Nantes, France.   
+
+4. PARTICIPANTS 780 participants (mean age 69, 58.5% women) with detailed headache assessment.   
+
+5. MAIN OUTCOME MEASURES Brain scans were evaluated for volume of white matter hyperintensities (by fully automated imaging processing) and for classification of infarcts (by visual reading with a standardised assessment grid).
+6. Cognitive function was assessed by a battery of tests including the mini-mental state examination.   
+
+7. RESULTS 163 (20.9%) participants reported a history of severe headache and 116 had migraine, of whom 17 (14.7%) reported aura symptoms.
+8. An association was found between any history of severe headache and increasing volume of white matter hyperintensities.
+9. The adjusted odds ratio of being in the highest third for total volume of white matter hyperintensities was 2.0 (95% confidence interval 1.3 to 3.1, P for trend 0.002) for participants with any history of severe headache when compared with participants without severe headache being in the lowest third.
+10. The association pattern was similar for all headache types.
+11. Migraine with aura was the only headache type strongly associated with volume of deep white matter hyperintensities (highest third odds ratio 12.4, 1.6 to 99.4, P for trend 0.005) and with brain infarcts (3.4, 1.2 to 9.3).
+12. The location of infarcts was predominantly outside the cerebellum and brain stem.
+13. CONCLUSIONS In this population based study, any history of severe headache was associated with an increased volume of white matter hyperintensities.
+14. Migraine with aura was the only headache type associated with brain infarcts.
+15. Evidence that headache of any type by itself or in combination with brain lesions was associated with cognitive impairment was lacking.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 21
+
+**Claim:** An M2-like phenotype in brown adipose tissue macrophages is quickly induced by cold exposure.
+
+**Remaining evidence:**
+
+1. All homeotherms use thermogenesis to maintain their core body temperature, ensuring that cellular functions and physiological processes can continue in cold environments.
+2. In the prevailing model of thermogenesis, when the hypothalamus senses cold temperatures it triggers sympathetic discharge, resulting in the release of noradrenaline in brown adipose tissue and white adipose tissue.
+3. Acting via the β(3)-adrenergic receptors, noradrenaline induces lipolysis in white adipocytes, whereas it stimulates the expression of thermogenic genes, such as PPAR-γ coactivator 1a (Ppargc1a), uncoupling protein 1 (Ucp1) and acyl-CoA synthetase long-chain family member 1 (Acsl1), in brown adipocytes.
+4. However, the precise nature of all the cell types involved in this efferent loop is not well established.
+5. Here we report in mice an unexpected requirement for the interleukin-4 (IL-4)-stimulated program of alternative macrophage activation in adaptive thermogenesis.
+6. Absence of alternatively activated macrophages impaired metabolic adaptations to cold, whereas administration of IL-4 increased thermogenic gene expression, fatty acid mobilization and energy expenditure, all in a macrophage-dependent manner.
+7. Thus, we have discovered a role for alternatively activated macrophages in the orchestration of an important mammalian stress response, the response to cold.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 22
+
+**Claim:** Lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls.
+
+**Remaining evidence:**
+
+1. Research on the human microbiome has established that commensal and pathogenic bacteria can influence obesity, cancer, and autoimmunity through mechanisms mostly unknown.
+2. We found that a component of bacterial biofilms, the amyloid protein curli, irreversibly formed fibers with bacterial DNA during biofilm formation.
+3. This interaction accelerated amyloid polymerization and created potent immunogenic complexes that activated immune cells, including dendritic cells, to produce cytokines such as type I interferons, which are pathogenic in systemic lupus erythematosus (SLE).
+4. When given systemically, curli-DNA composites triggered immune activation and production of autoantibodies in lupus-prone and wild-type mice.
+5. These data provide a mechanism by which the microbiome and biofilm-producing enteric infections may contribute to the progression of SLE and point to a potential molecular target for treatment of autoimmunity.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 23
+
+**Claim:** miR-142-5P is a temperature-sensitive microRNA (miRNA).
+
+**Remaining evidence:**
+
+1. Fever is commonly used to diagnose disease and is consistently associated with increased mortality in critically ill patients.
+2. However, the molecular controls of elevated body temperature are poorly understood.
+3. We discovered that the expression of RNA-binding motif protein 3 (RBM3), known to respond to cold stress and to modulate microRNA (miRNA) expression, was reduced in 30 patients with fever, and in THP-1-derived macrophages maintained at a fever-like temperature (40 °C).
+4. Notably, RBM3 expression is reduced during fever whether or not infection is demonstrable.
+5. Using normal PBMCs that were exogenously exposed to fever-like temperature (40 °C), we further demonstrate the trend by which decreased levels of RBM3 were associated with increased levels of miR-142-5p and miR-143 and vice versa over a 24 h time course.
+6. Collectively, our results indicate the existence of a negative feedback loop that regulates fever via reduced RBM3 levels and increased expression of miR-142-5p and miR-143.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 24
+
+**Claim:** 40mg/day dosage of folic acid and 2mg/day dosage of vitamin B12 does not affect chronic kidney disease (CKD) progression.
+
+**Remaining evidence:**
+
+1. CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease.
+2. Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.   
+
+3. OBJECTIVE To determine whether high doses of folic acid and B vitamins administered daily reduce mortality in patients with chronic kidney disease.   
+
+4. DESIGN, SETTING, AND PARTICIPANTS Double-blind randomized controlled trial (2001-2006) in 36 US Department of Veterans Affairs medical centers.
+5. Median follow-up was 3.2 years for 2056 participants aged 21 years or older with advanced chronic kidney disease (estimated creatinine clearance < or =30 mL/min) (n = 1305) or end-stage renal disease (n = 751) and high homocysteine levels (> or = 15 micromol/L).   
+
+6. INTERVENTION Participants received a daily capsule containing 40 mg of folic acid, 100 mg of pyridoxine hydrochloride (vitamin B6), and 2 mg of cyanocobalamin (vitamin B12) or a placebo.   
+
+7. MAIN OUTCOME MEASURES The primary outcome was all-cause mortality.
+8. Secondary outcomes included myocardial infarction (MI), stroke, amputation of all or part of a lower extremity, a composite of these 3 plus all-cause mortality, time to initiation of dialysis, and time to thrombosis of arteriovenous access in hemodialysis patients.   
+
+9. It was lowered 6.3 micromol/L (25.8%; P < .001) in the vitamin group and 0.4 micromol/L (1.7%; P = .14) in the placebo group at 3 months, but there was no significant effect on mortality (448 vitamin group deaths vs 436 placebo group deaths) (hazard ratio [HR], 1.04; 95% CI, 0.91-1.18).
+10. No significant effects were demonstrated for secondary outcomes or adverse events: there were 129 MIs in the vitamin group vs 150 for placebo (HR, 0.86; 95% CI, 0.67-1.08), 37 strokes in the vitamin group vs 41 for placebo (HR, 0.90; 95% CI, 0.58-1.40), and 60 amputations in the vitamin group vs 53 for placebo (HR, 1.14; 95% CI, 0.79-1.64).
+11. In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   
+
+12. TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00032435.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 25
+
+**Claim:** Lack of FGF21 in mice slows the rate of atherosclerotic plaque formation.
+
+**Remaining evidence:**
+
+1. BACKGROUND Fibroblast growth factor 21 (FGF21) is a metabolic hormone with pleiotropic effects on glucose and lipid metabolism and insulin sensitivity.
+2. It acts as a key downstream target of both peroxisome proliferator-activated receptor α and γ, the agonists of which have been used for lipid lowering and insulin sensitization, respectively.
+3. However, the role of FGF21 in the cardiovascular system remains elusive.   
+
+4. METHODS AND RESULTS The roles of FGF21 in atherosclerosis were investigated by evaluating the impact of FGF21 deficiency and replenishment with recombinant FGF21 in apolipoprotein E(-/-) mice.
+5. Chronic treatment with adiponectin partially reverses atherosclerosis without obvious effects on hypercholesterolemia in FGF21-deficient apolipoprotein E(-/-) mice.
+6. By contrast, the cholesterol-lowering effects of FGF21 are abrogated by hepatic expression of sterol regulatory element-binding protein-2.   
+
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 26
+
+**Claim:** Exposure to fine particulate air pollution is unrelated to anxiety prevalence.
+
+**Remaining evidence:**
+
+1. OBJECTIVE To determine whether higher past exposure to particulate air pollution is associated with prevalent high symptoms of anxiety.   
+
+2. DESIGN Observational cohort study.   
+
+3. SETTING Nurses' Health Study.   
+
+4. PARTICIPANTS 71,271 women enrolled in the Nurses' Health Study residing throughout the contiguous United States who had valid estimates on exposure to particulate matter for at least one exposure period of interest and data on anxiety symptoms.   
+
+5. MAIN OUTCOME MEASURES Meaningfully high symptoms of anxiety, defined as a score of 6 points or greater on the phobic anxiety subscale of the Crown-Crisp index, administered in 2004.   
+
+6. RESULTS The 71,271 eligible women were aged between 57 and 85 years (mean 70 years) at the time of assessment of anxiety symptoms, with a prevalence of high anxiety symptoms of 15%.
+7. Exposure to particulate matter was characterized using estimated average exposure to particulate matter <2.5 μm in diameter (PM2.5) and 2.5 to 10 μm in diameter (PM2.5-10) in the one month, three months, six months, one year, and 15 years prior to assessment of anxiety symptoms, and residential distance to the nearest major road two years prior to assessment.
+8. Models including multiple exposure windows suggested short term averaging periods were more relevant than long term averaging periods.
+9. There was no association between anxiety and exposure to PM2.5-10.
+10. Residential proximity to major roads was not related to anxiety symptoms in a dose dependent manner.   
+
+11. Research evaluating whether reductions in exposure to ambient PM2.5 would reduce the population level burden of clinically relevant symptoms of anxiety is warranted.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 27
+
+**Claim:** CX3CR1 on the Th2 cells impairs T cell survival
+
+**Remaining evidence:**
+
+1. Allergic asthma is a T helper type 2 (T(H)2)-dominated disease of the lung.
+2. In people with asthma, a fraction of CD4(+) T cells express the CX3CL1 receptor, CX3CR1, and CX3CL1 expression is increased in airway smooth muscle, lung endothelium and epithelium upon allergen challenge.
+3. Here we found that untreated CX3CR1-deficient mice or wild-type (WT) mice treated with CX3CR1-blocking reagents show reduced lung disease upon allergen sensitization and challenge.
+4. Transfer of WT CD4(+) T cells into CX3CR1-deficient mice restored the cardinal features of asthma, and CX3CR1-blocking reagents prevented airway inflammation in CX3CR1-deficient recipients injected with WT T(H)2 cells.
+5. CX3CR1-induced survival was also observed for T(H)1 cells upon airway inflammation but not under homeostatic conditions or upon peripheral inflammation.
+6. Therefore, CX3CR1 and CX3CL1 may represent attractive therapeutic targets in asthma.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 28
+
+**Claim:** PTEN is a regulator for the transcriptional activity of SRF
+
+**Remaining evidence:**
+
+1. Vascular disease progression is associated with marked changes in vascular smooth muscle cell (SMC) phenotype and function.
+2. SMC contractile gene expression and, thus differentiation, is under direct transcriptional control by the transcription factor, serum response factor (SRF); however, the mechanisms dynamically regulating SMC phenotype are not fully defined.
+3. Overall decreased expression of PTEN was observed in intimal SMCs of human atherosclerotic lesions underlying the potential clinical importance of these findings.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 29
+
+**Claim:** Cellular differentiation of embryonic stem cells is accompanied by changes in replication timing, transcription and nuclear localization.
+
+**Remaining evidence:**
+
+1. DNA replication in mammals is regulated via the coordinate firing of clusters of replicons that duplicate megabase-sized chromosome segments at specific times during S-phase.
+2. Cytogenetic studies show that these "replicon clusters" coalesce as subchromosomal units that persist through multiple cell generations, but the molecular boundaries of such units have remained elusive.
+3. Moreover, the extent to which changes in replication timing occur during differentiation and their relationship to transcription changes has not been rigorously investigated.
+4. We have constructed high-resolution replication-timing profiles in mouse embryonic stem cells (mESCs) before and after differentiation to neural precursor cells.
+5. We demonstrate that chromosomes can be segmented into multimegabase domains of coordinate replication, which we call "replication domains," separated by transition regions whose replication kinetics are consistent with large originless segments.
+6. The molecular boundaries of replication domains are remarkably well conserved between distantly related ESC lines and induced pluripotent stem cells.
+7. Unexpectedly, ESC differentiation was accompanied by the consolidation of smaller differentially replicating domains into larger coordinately replicated units whose replication time was more aligned to isochore GC content and the density of LINE-1 transposable elements, but not gene density.
+8. We conclude that replication profiles are cell-type specific, and changes in these profiles reveal chromosome segments that undergo large changes in organization during differentiation.
+9. Moreover, smaller replication domains and a higher density of timing transition regions that interrupt isochore replication timing define a novel characteristic of the pluripotent state.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 30
+
+**Claim:** There is a positive correlation between hip fractures and statin use.
+
+**Remaining evidence:**
+
+1. CONTEXT Recent animal studies have found that 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) lipid-lowering drugs (statins) substantially increase bone formation, but whether statin use in humans results in clinically meaningful bone formation or a reduction in the risk of osteoporotic fractures is not known.   
+
+2. OBJECTIVE To determine whether the use of statins is associated with reduced hip fracture risk.   
+
+3. DESIGN Case-control study.   
+
+4. SETTING AND PATIENTS A total of 6110 New Jersey residents aged 65 years or older and enrolled in Medicare and either Medicaid or the Pharmacy Assistance for the Aged and Disabled program.
+5. Case patients (n=1222) underwent surgical repair of a hip fracture in 1994.
+6. Control patients (n=4888) were identified at a ratio of 4:1 and frequency-matched to case patients for age and sex.   
+
+7. MAIN OUTCOME MEASURE Adjusted odds ratio (OR) of hip fracture by statin use in the 180 days and 3 years prior to the index date (the earliest date of admission for surgery), adjusted for demographic and clinical characteristics and health care utilization.   
+
+8. No significant relationship was observed between use of nonstatin lipid-lowering agents and hip fracture risk.
+9. The relationship between statin use and hip fracture risk persisted after controlling for variables such as the number of medications, the Charlson comorbidity index score, and hospitalization or nursing home stay in the last 180 days, as well as after excluding patients who were in a nursing home prior to their index date or who died in the year after their index date.
+10. Use of nonstatin lipid-lowering agents was not observed to be associated with reduction in hip fracture risk in any of these alternative models or analyses.   
+
+11. Controlled trials are needed to exclude the possibility of unmeasured confounders.
+12. JAMA.
+13. 2000;283:3211-3216
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 31
+
+**Claim:** In breast cancer, the loss of myoepithelial cells promotes the transition of ductal carcinoma in situ to invasive carcinoma.
+
+**Remaining evidence:**
+
+1. The transition of ductal carcinoma in situ (DCIS) to invasive carcinoma is a poorly understood key event in breast tumor progression.
+2. Here, we analyzed the role of myoepithelial cells and fibroblasts in the progression of in situ carcinomas using a model of human DCIS and primary breast tumors.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 32
+
+**Claim:** In melanoma, anti-CTLA-4 treatment reinvigorates exhausted PD-1+Eomes+CD8 T cells.
+
+**Remaining evidence:**
+
+1. Immune checkpoint inhibitors result in impressive clinical responses, but optimal results will require combination with each other and other therapies.
+2. This raises fundamental questions about mechanisms of non-redundancy and resistance.
+3. Here we report major tumour regressions in a subset of patients with metastatic melanoma treated with an anti-CTLA4 antibody (anti-CTLA4) and radiation, and reproduced this effect in mouse models.
+4. Although combined treatment improved responses in irradiated and unirradiated tumours, resistance was common.
+5. Accordingly, optimal response in melanoma and other cancer types requires radiation, anti-CTLA4 and anti-PD-L1/PD-1.
+6. Anti-CTLA4 predominantly inhibits T-regulatory cells (Treg cells), thereby increasing the CD8 T-cell to Treg (CD8/Treg) ratio.
+7. Radiation enhances the diversity of the T-cell receptor (TCR) repertoire of intratumoral T cells.
+8. Together, anti-CTLA4 promotes expansion of T cells, while radiation shapes the TCR repertoire of the expanded peripheral clones.
+9. Addition of PD-L1 blockade reverses T-cell exhaustion to mitigate depression in the CD8/Treg ratio and further encourages oligoclonal T-cell expansion.
+10. Similarly to results from mice, patients on our clinical trial with melanoma showing high PD-L1 did not respond to radiation plus anti-CTLA4, demonstrated persistent T-cell exhaustion, and rapidly progressed.
+11. Thus, PD-L1 on melanoma cells allows tumours to escape anti-CTLA4-based therapy, and the combination of radiation, anti-CTLA4 and anti-PD-L1 promotes response and immunity through distinct mechanisms.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 33
+
+**Claim:** Sepsis related mortality has risen from 2009 to 2014.
+
+**Remaining evidence:**
+
+1. Importance Estimates from claims-based analyses suggest that the incidence of sepsis is increasing and mortality rates from sepsis are decreasing.
+2. However, estimates from claims data may lack clinical fidelity and can be affected by changing diagnosis and coding practices over time.
+3. Objective To estimate the US national incidence of sepsis and trends using detailed clinical data from the electronic health record (EHR) systems of diverse hospitals.
+4. Design, Setting, and Population Retrospective cohort study of adult patients admitted to 409 academic, community, and federal hospitals from 2009-2014.
+5. Exposures Sepsis was identified using clinical indicators of presumed infection and concurrent acute organ dysfunction, adapting Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) criteria for objective and consistent EHR-based surveillance.
+6. Main Outcomes and Measures Sepsis incidence, outcomes, and trends from 2009-2014 were calculated using regression models and compared with claims-based estimates using International Classification of Diseases, Ninth Revision, Clinical Modification codes for severe sepsis or septic shock.
+7. Case-finding criteria were validated against Sepsis-3 criteria using medical record reviews.
+8. Results A total of 173 690 sepsis cases (mean age, 66.5 [SD, 15.5] y; 77 660 [42.4%] women) were identified using clinical criteria among 2 901 019 adults admitted to study hospitals in 2014 (6.0% incidence).
+9. Of these, 26 061 (15.0%) died in the hospital and 10 731 (6.2%) were discharged to hospice.
+10. From 2009-2014, sepsis incidence using clinical criteria was stable (+0.6% relative change/y [95% CI, −2.3% to 3.5%], P = .67) whereas incidence per claims increased (+10.3%/y [95% CI, 7.2% to 13.3%], P < .001).
+11. In contrast, mortality using claims declined significantly (−7.0%/y [95% CI, −8.8% to −5.2%], P < .001), as did death or discharge to hospice (−4.5%/y [95% CI, −6.1% to −2.8%], P < .001).
+12. Clinical criteria were more sensitive in identifying sepsis than claims (69.7% [95% CI, 52.9% to 92.0%] vs 32.3% [95% CI, 24.4% to 43.0%], P < .001), with comparable positive predictive value (70.4% [95% CI, 64.0% to 76.8%] vs 75.2% [95% CI, 69.8% to 80.6%], P = .23).
+13. The findings also suggest that EHR-based clinical data provide more objective estimates than claims-based data for sepsis surveillance.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 34
+
+**Claim:** Pyridostatin prevents double-strand breaks accumulation.
+
+**Remaining evidence:**
+
+1. G-quadruplex (G4)-forming genomic sequences, including telomeres, represent natural replication fork barriers.
+2. Stalled replication forks can be stabilized and restarted by homologous recombination (HR), which also repairs DNA double-strand breaks (DSBs) arising at collapsed forks.
+3. We have previously shown that HR facilitates telomere replication.
+4. Here, we demonstrate that the replication efficiency of guanine-rich (G-rich) telomeric repeats is decreased significantly in cells lacking HR.
+5. Treatment with the G4-stabilizing compound pyridostatin (PDS) increases telomere fragility in BRCA2-deficient cells, suggesting that G4 formation drives telomere instability.
+6. PDS toxicity extends to HR-defective cells that have acquired olaparib resistance through loss of 53BP1 or REV7.
+7. Altogether, these results highlight the therapeutic potential of G4-stabilizing drugs to selectively eliminate HR-compromised cells and tumors, including those resistant to PARP inhibition.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 35
+
+**Claim:** JMJD6 slows the hydroxylation of C-terminal lysine
+
+**Remaining evidence:**
+
+1. Jumonji domain-containing 6 (JMJD6) is a member of the Jumonji C domain-containing family of proteins.
+2. Compared to other members of the family, the cellular activity of JMJD6 is still not clearly defined and its biological function is still largely unexplored.
+3. Here we report that JMJD6 is physically associated with the tumor suppressor p53.
+4. We showed that JMJD6 antagonizes p53 acetylation, promotes the association of p53 with its negative regulator MDMX, and represses transcriptional activity of p53.
+5. Importantly, knockdown of JMJD6 represses p53-dependent colon cell proliferation and tumorigenesis in vivo, and significantly, the expression of JMJD6 is markedly up-regulated in various types of human cancer especially in colon cancer, and high nuclear JMJD6 protein is strongly correlated with aggressive clinical behaviors of colon adenocarcinomas.
+6. Our results reveal a novel posttranslational modification for p53 and support the pursuit of JMJD6 as a potential biomarker for colon cancer aggressiveness and a potential target for colon cancer intervention.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 36
+
+**Claim:** MafA ubiquitination decreases the recruitment of coavtivator P/CAF by MafA.
+
+**Remaining evidence:**
+
+1. The Maf oncoproteins are b-Zip transcription factors of the AP-1 superfamily.
+2. They are involved in developmental, metabolic, and tumorigenic processes.
+3. Maf proteins are overexpressed in about 50% of human multiple myelomas.
+4. Here, we show that Maf-transforming activity is controlled by GSK-3-dependent phosphorylation and that phosphorylation by GSK-3 can increase the oncogenic activity of a protein.
+5. Using microarray analysis, we identify a gene-expression subprogram regulated by GSK-3-mediated Maf phosphorylation involved in extracellular matrix remodeling and relevant to cancer progression.
+6. We also demonstrate that GSK-3 triggers MafA sequential phosphorylation on residues S61, T57, T53, and S49, inducing its ubiquitination and degradation.
+7. We further demonstrate that P/CAF protects MafA from ubiquitination and degradation, suggesting that, upon the release of the coactivator complex, MafA becomes polyubiquitinated and degraded to allow the response to terminate.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 37
+
+**Claim:** Pharmacist attendance at ward rounds increases adverse events in wards.
+
+**Remaining evidence:**
+
+1. CONTEXT Pharmacist review of medication orders in the intensive care unit (ICU) has been shown to prevent errors, and pharmacist consultation has reduced drug costs.
+2. However, whether pharmacist participation in the ICU at the time of drug prescribing reduces adverse events has not been studied.   
+
+3. OBJECTIVE To measure the effect of pharmacist participation on medical rounds in the ICU on the rate of preventable adverse drug events (ADEs) caused by ordering errors.   
+
+4. DESIGN Before-after comparison between phase 1 (baseline) and phase 2 (after intervention implemented) and phase 2 comparison with a control unit that did not receive the intervention.   
+
+5. SETTING A medical ICU (study unit) and a coronary care unit (control unit) in a large urban teaching hospital.   
+
+6. PATIENTS Seventy-five patients randomly selected from each of 3 groups: all admissions to the study unit from February 1, 1993, through July 31, 1993 (baseline) and all admissions to the study unit (postintervention) and control unit from October 1, 1994, through July 7, 1995.
+7. In addition, 50 patients were selected at random from the control unit during the baseline period.   
+
+8. INTERVENTION A senior pharmacist made rounds with the ICU team and remained in the ICU for consultation in the morning, and was available on call throughout the day.   
+
+9. MAIN OUTCOME MEASURES Preventable ADEs due to ordering (prescribing) errors and the number, type, and acceptance of interventions made by the pharmacist.
+10. Preventable ADEs were identified by review of medical records of the randomly selected patients during both preintervention and postintervention phases.
+11. Pharmacists recorded all recommendations, which were then analyzed by type and acceptance.   
+
+12. In the control unit, the rate was essentially unchanged during the same time periods: 10.9 (95% CI, 6-16) and 12.4 (95% CI, 8-17) per 1000 patient-days.
+13. The pharmacist made 366 recommendations related to drug ordering, of which 362 (99%) were accepted by physicians.   
+
+14. Nearly all the changes were readily accepted by physicians.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 38
+
+**Claim:** In British Men, haplogroup I increases risk of cardiovascular disease by 50%.
+
+**Remaining evidence:**
+
+1. BACKGROUND A sexual dimorphism exists in the incidence and prevalence of coronary artery disease--men are more commonly affected than are age-matched women.
+2. We explored the role of the Y chromosome in coronary artery disease in the context of this sexual inequity.   
+
+3. METHODS We genotyped 11 markers of the male-specific region of the Y chromosome in 3233 biologically unrelated British men from three cohorts: the British Heart Foundation Family Heart Study (BHF-FHS), West of Scotland Coronary Prevention Study (WOSCOPS), and Cardiogenics Study.
+4. On the basis of this information, each Y chromosome was tracked back into one of 13 ancient lineages defined as haplogroups.
+5. We then examined associations between common Y chromosome haplogroups and the risk of coronary artery disease in cross-sectional BHF-FHS and prospective WOSCOPS.
+6. Finally, we undertook functional analysis of Y chromosome effects on monocyte and macrophage transcriptome in British men from the Cardiogenics Study.   
+
+7. FINDINGS Of nine haplogroups identified, two (R1b1b2 and I) accounted for roughly 90% of the Y chromosome variants among British men.
+8. The association between haplogroup I and increased risk of coronary artery disease was independent of traditional cardiovascular and socioeconomic risk factors.
+9. Analysis of macrophage transcriptome in the Cardiogenics Study revealed that 19 molecular pathways showing strong differential expression between men with haplogroup I and other lineages of the Y chromosome were interconnected by common genes related to inflammation and immunity, and that some of them have a strong relevance to atherosclerosis.   
+
+10. INTERPRETATION The human Y chromosome is associated with risk of coronary artery disease in men of European ancestry, possibly through interactions of immunity and inflammation.   
+
+11. FUNDING British Heart Foundation; UK National Institute for Health Research; LEW Carty Charitable Fund; National Health and Medical Research Council of Australia; European Union 6th Framework Programme; Wellcome Trust.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 39
+
+**Claim:** In breast cancer, the loss of myoepithelial cells slows the transition of ductal carcinoma in situ to invasive carcinoma.
+
+**Remaining evidence:**
+
+1. The transition of ductal carcinoma in situ (DCIS) to invasive carcinoma is a poorly understood key event in breast tumor progression.
+2. Here, we analyzed the role of myoepithelial cells and fibroblasts in the progression of in situ carcinomas using a model of human DCIS and primary breast tumors.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 40
+
+**Claim:** Blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 leads to increased TDP-43-induced neuronal loss.
+
+**Remaining evidence:**
+
+1. Genetic mutations in TAR DNA-binding protein 43 (TARDBP, also known as TDP-43) cause amyotrophic lateral sclerosis (ALS), and an increase in the presence of TDP-43 (encoded by TARDBP) in the cytoplasm is a prominent histopathological feature of degenerating neurons in various neurodegenerative diseases.
+2. However, the molecular mechanisms by which TDP-43 contributes to ALS pathophysiology remain elusive.
+3. Here we have found that TDP-43 accumulates in the mitochondria of neurons in subjects with ALS or frontotemporal dementia (FTD).
+4. Disease-associated mutations increase TDP-43 mitochondrial localization.
+5. In mitochondria, wild-type (WT) and mutant TDP-43 preferentially bind mitochondria-transcribed messenger RNAs (mRNAs) encoding respiratory complex I subunits ND3 and ND6, impair their expression and specifically cause complex I disassembly.
+6. Thus, our studies link TDP-43 toxicity directly to mitochondrial bioenergetics and propose the targeting of TDP-43 mitochondrial localization as a promising therapeutic approach for neurodegeneration.
+
+**leftover_support:** 
+
+**notes:** 
+
+## Row 41
+
+**Claim:** Bariatric surgery leads to positive outcomes in mental health.
+
+**Remaining evidence:**
+
+1. IMPORTANCE Bariatric surgery is associated with sustained weight loss and improved physical health status for severely obese individuals.
+2. Mental health conditions may be common among patients seeking bariatric surgery; however, the prevalence of these conditions and whether they are associated with postoperative outcomes remains unknown.   
+
+3. OBJECTIVE To determine the prevalence of mental health conditions among bariatric surgery candidates and recipients, to evaluate the association between preoperative mental health conditions and health outcomes following bariatric surgery, and to evaluate the association between surgery and the clinical course of mental health conditions.   
+
+4. DATA SOURCES We searched PubMed, MEDLINE on OVID, and PsycINFO for studies published between January 1988 and November 2015.
+5. Study quality was assessed using an adapted tool for risk of bias; quality of evidence was rated based on GRADE (Grading of Recommendations Assessment, Development and Evaluation) criteria.   
+
+6. FINDINGS We identified 68 publications meeting inclusion criteria: 59 reporting the prevalence of preoperative mental health conditions (65,363 patients) and 27 reporting associations between preoperative mental health conditions and postoperative outcomes (50,182 patients).
+7. Among patients seeking and undergoing bariatric surgery, the most common mental health conditions, based on random-effects estimates of prevalence, were depression (19% [95% CI, 14%-25%]) and binge eating disorder (17% [95% CI, 13%-21%]).
+8. There was conflicting evidence regarding the association between preoperative mental health conditions and postoperative weight loss.
+9. Neither depression nor binge eating disorder was consistently associated with differences in weight outcomes.
+10. CONCLUSIONS AND RELEVANCE Mental health conditions are common among bariatric surgery patients-in particular, depression and binge eating disorder.
+11. There is inconsistent evidence regarding the association between preoperative mental health conditions and postoperative weight loss.
+
+**leftover_support:** 
+
+**notes:** 
+

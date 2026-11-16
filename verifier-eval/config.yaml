@@ -57,6 +57,23 @@ m2:
 c1:
   n_sentences: 6
 
+# Manual audit sheets (no model calls).
+audit:
+  seed: 20261117
+
+# Experiment runner (scripts/run_experiment.py). order_seed is null until the
+# human sets it; a real run refuses to start while it is null.
+run:
+  conditions_core: [C0, C0p, C2, M1, M2]
+  conditions_extended: [C1, C_closed]
+  k: 5
+  order_seed: 20261118
+  tag_required: spec-frozen
+  shards: 10
+  # Logs live outside the repo and outside OneDrive (SPEC v1.5 §7): one log
+  # per tier and prompt variant under <results_dir>/raw/.
+  results_dir: C:/Users/rekal/AppData/Local/epistemics-eval/results
+
 # Main subject (SPEC §3). Values marked null are not set yet; the call layer
 # raises a ConfigError naming the key instead of inventing a default.
 models:

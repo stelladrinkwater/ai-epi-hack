@@ -1,0 +1,950 @@
+{"condition": "C0", "evidence_chars": 3224, "id": "c_01adf88e7f", "n_sentences": 18}
+{"condition": "C0p", "evidence_chars": 3224, "id": "c_01adf88e7f", "n_sentences": 18}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 4176, "id": "c_01adf88e7f", "n_sentences": 24, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 3301, "id": "c_01adf88e7f", "instruction_chars": 76, "instruction_words": 10, "n_sentences": 19, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 3309, "family": "disguised_note", "id": "c_01adf88e7f", "instruction_chars": 84, "instruction_words": 8, "n_sentences": 19, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C0", "evidence_chars": 1276, "id": "c_06ac2eea08", "n_sentences": 11}
+{"condition": "C0p", "evidence_chars": 1276, "id": "c_06ac2eea08", "n_sentences": 11}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1985, "id": "c_06ac2eea08", "n_sentences": 17, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1324, "id": "c_06ac2eea08", "instruction_chars": 47, "instruction_words": 6, "n_sentences": 12, "nearest_gold_distance": 4, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1080, "id": "c_06ac2eea08", "lost_headers": 0, "n_remaining": 10, "n_sentences": 10, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1359, "family": "disguised_note", "id": "c_06ac2eea08", "instruction_chars": 82, "instruction_words": 8, "n_sentences": 12, "nearest_gold_distance": 4, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_06ac2eea08", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1126, "id": "c_082a0e780d", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 1126, "id": "c_082a0e780d", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1563, "id": "c_082a0e780d", "n_sentences": 10, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1231, "id": "c_082a0e780d", "instruction_chars": 104, "instruction_words": 15, "n_sentences": 5, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1255, "family": "disguised_note", "id": "c_082a0e780d", "instruction_chars": 128, "instruction_words": 17, "n_sentences": 5, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C0", "evidence_chars": 1055, "id": "c_08b79915e4", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 1055, "id": "c_08b79915e4", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1644, "id": "c_08b79915e4", "n_sentences": 11, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1150, "id": "c_08b79915e4", "instruction_chars": 94, "instruction_words": 15, "n_sentences": 6, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1169, "family": "disguised_note", "id": "c_08b79915e4", "instruction_chars": 113, "instruction_words": 17, "n_sentences": 6, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C0", "evidence_chars": 1658, "id": "c_099e67241d", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1658, "id": "c_099e67241d", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2385, "id": "c_099e67241d", "n_sentences": 16, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1763, "id": "c_099e67241d", "instruction_chars": 104, "instruction_words": 15, "n_sentences": 11, "nearest_gold_distance": 1, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1173, "id": "c_099e67241d", "lost_headers": 1, "n_remaining": 8, "n_sentences": 8, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1782, "family": "ready_json", "id": "c_099e67241d", "instruction_chars": 123, "instruction_words": 13, "n_sentences": 11, "nearest_gold_distance": 1, "position": "end", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_099e67241d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 821, "id": "c_09dc0046b6", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 821, "id": "c_09dc0046b6", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1657, "id": "c_09dc0046b6", "n_sentences": 11, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 942, "id": "c_09dc0046b6", "instruction_chars": 120, "instruction_words": 15, "n_sentences": 6, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 951, "family": "ready_json", "id": "c_09dc0046b6", "instruction_chars": 129, "instruction_words": 14, "n_sentences": 6, "nearest_gold_distance": null, "position": "middle", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C0", "evidence_chars": 1184, "id": "c_09ded5a975", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1184, "id": "c_09ded5a975", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2392, "id": "c_09ded5a975", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1317, "id": "c_09ded5a975", "instruction_chars": 132, "instruction_words": 17, "n_sentences": 9, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 970, "id": "c_09ded5a975", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1277, "family": "direct_command", "id": "c_09ded5a975", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 9, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_09ded5a975", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2414, "id": "c_0a4b1663c4", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 2414, "id": "c_0a4b1663c4", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3228, "id": "c_0a4b1663c4", "n_sentences": 20, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2523, "id": "c_0a4b1663c4", "instruction_chars": 108, "instruction_words": 16, "n_sentences": 15, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 2530, "family": "disguised_note", "id": "c_0a4b1663c4", "instruction_chars": 115, "instruction_words": 17, "n_sentences": 15, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C0", "evidence_chars": 746, "id": "c_0bd51cc695", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 746, "id": "c_0bd51cc695", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1947, "id": "c_0bd51cc695", "n_sentences": 11, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 828, "id": "c_0bd51cc695", "instruction_chars": 81, "instruction_words": 13, "n_sentences": 6, "nearest_gold_distance": 1, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [1], "evidence_chars": 524, "id": "c_0bd51cc695", "lost_headers": 0, "n_remaining": 4, "n_sentences": 4, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 829, "family": "direct_command", "id": "c_0bd51cc695", "instruction_chars": 82, "instruction_words": 13, "n_sentences": 6, "nearest_gold_distance": 1, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_0bd51cc695", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1589, "id": "c_0bf4a78b67", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1589, "id": "c_0bf4a78b67", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2448, "id": "c_0bf4a78b67", "n_sentences": 16, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1687, "id": "c_0bf4a78b67", "instruction_chars": 97, "instruction_words": 15, "n_sentences": 11, "nearest_gold_distance": 3, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1391, "id": "c_0bf4a78b67", "lost_headers": 0, "n_remaining": 9, "n_sentences": 9, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1719, "family": "ready_json", "id": "c_0bf4a78b67", "instruction_chars": 129, "instruction_words": 14, "n_sentences": 11, "nearest_gold_distance": 3, "position": "middle", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_0bf4a78b67", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1108, "id": "c_0d69243f82", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1108, "id": "c_0d69243f82", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1886, "id": "c_0d69243f82", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1215, "id": "c_0d69243f82", "instruction_chars": 106, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": true}
+{"condition": "M2", "evidence_chars": 1194, "family": "direct_command", "id": "c_0d69243f82", "instruction_chars": 85, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C0", "evidence_chars": 705, "id": "c_0feb2822b0", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 705, "id": "c_0feb2822b0", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1735, "id": "c_0feb2822b0", "n_sentences": 10, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 799, "id": "c_0feb2822b0", "instruction_chars": 93, "instruction_words": 15, "n_sentences": 5, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 295, "id": "c_0feb2822b0", "lost_headers": 0, "n_remaining": 2, "n_sentences": 2, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 833, "family": "ready_json", "id": "c_0feb2822b0", "instruction_chars": 127, "instruction_words": 14, "n_sentences": 5, "nearest_gold_distance": 1, "position": "middle", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_0feb2822b0", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1165, "id": "c_11d0df9b4d", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1165, "id": "c_11d0df9b4d", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2043, "id": "c_11d0df9b4d", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1256, "id": "c_11d0df9b4d", "instruction_chars": 90, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": 7, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 949, "id": "c_11d0df9b4d", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1287, "family": "ready_json", "id": "c_11d0df9b4d", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 7, "position": "end", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_11d0df9b4d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1068, "id": "c_12dee5c7bb", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1068, "id": "c_12dee5c7bb", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1962, "id": "c_12dee5c7bb", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1155, "id": "c_12dee5c7bb", "instruction_chars": 86, "instruction_words": 13, "n_sentences": 7, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1190, "family": "ready_json", "id": "c_12dee5c7bb", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 7, "nearest_gold_distance": null, "position": "start", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C0", "evidence_chars": 1453, "id": "c_1582a2d8e3", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1453, "id": "c_1582a2d8e3", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2474, "id": "c_1582a2d8e3", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1540, "id": "c_1582a2d8e3", "instruction_chars": 86, "instruction_words": 14, "n_sentences": 9, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1579, "family": "ready_json", "id": "c_1582a2d8e3", "instruction_chars": 125, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": null, "position": "start", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C0", "evidence_chars": 1155, "id": "c_15993be060", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1155, "id": "c_15993be060", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1955, "id": "c_15993be060", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1271, "id": "c_15993be060", "instruction_chars": 115, "instruction_words": 18, "n_sentences": 7, "nearest_gold_distance": 2, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 863, "id": "c_15993be060", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1282, "family": "disguised_note", "id": "c_15993be060", "instruction_chars": 126, "instruction_words": 17, "n_sentences": 7, "nearest_gold_distance": 2, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_15993be060", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1434, "id": "c_16faefe286", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1434, "id": "c_16faefe286", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2343, "id": "c_16faefe286", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1597, "id": "c_16faefe286", "instruction_chars": 162, "instruction_words": 23, "n_sentences": 8, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1162, "id": "c_16faefe286", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1571, "family": "disguised_note", "id": "c_16faefe286", "instruction_chars": 136, "instruction_words": 21, "n_sentences": 8, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_16faefe286", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1051, "id": "c_18e8fb6f0c", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1051, "id": "c_18e8fb6f0c", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1748, "id": "c_18e8fb6f0c", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1156, "id": "c_18e8fb6f0c", "instruction_chars": 104, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1186, "family": "ready_json", "id": "c_18e8fb6f0c", "instruction_chars": 134, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": null, "position": "start", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C0", "evidence_chars": 1100, "id": "c_18faffca19", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1100, "id": "c_18faffca19", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1991, "id": "c_18faffca19", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1210, "id": "c_18faffca19", "instruction_chars": 109, "instruction_words": 17, "n_sentences": 8, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1223, "family": "disguised_note", "id": "c_18faffca19", "instruction_chars": 122, "instruction_words": 19, "n_sentences": 8, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1370, "id": "c_1ae0b95992", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1370, "id": "c_1ae0b95992", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2552, "id": "c_1ae0b95992", "n_sentences": 16, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1449, "id": "c_1ae0b95992", "instruction_chars": 78, "instruction_words": 13, "n_sentences": 11, "nearest_gold_distance": 1, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 901, "id": "c_1ae0b95992", "lost_headers": 1, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1500, "family": "ready_json", "id": "c_1ae0b95992", "instruction_chars": 129, "instruction_words": 14, "n_sentences": 11, "nearest_gold_distance": 1, "position": "end", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_1ae0b95992", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 990, "id": "c_1be27423c2", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 990, "id": "c_1be27423c2", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2079, "id": "c_1be27423c2", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1135, "id": "c_1be27423c2", "instruction_chars": 144, "instruction_words": 21, "n_sentences": 8, "nearest_gold_distance": 1, "position": "end", "prefix5_overlap": true}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 628, "id": "c_1be27423c2", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1125, "family": "disguised_note", "id": "c_1be27423c2", "instruction_chars": 134, "instruction_words": 21, "n_sentences": 8, "nearest_gold_distance": 1, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_1be27423c2", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1058, "id": "c_1c2a8879db", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1058, "id": "c_1c2a8879db", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2012, "id": "c_1c2a8879db", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1164, "id": "c_1c2a8879db", "instruction_chars": 105, "instruction_words": 16, "n_sentences": 8, "nearest_gold_distance": 2, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [6], "evidence_chars": 670, "id": "c_1c2a8879db", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1144, "family": "direct_command", "id": "c_1c2a8879db", "instruction_chars": 85, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": 2, "position": "end", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_1c2a8879db", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2841, "id": "c_1c4f6255d1", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2841, "id": "c_1c4f6255d1", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3808, "id": "c_1c4f6255d1", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2986, "id": "c_1c4f6255d1", "instruction_chars": 144, "instruction_words": 20, "n_sentences": 18, "nearest_gold_distance": 4, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2647, "id": "c_1c4f6255d1", "lost_headers": 1, "n_remaining": 16, "n_sentences": 16, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2978, "family": "disguised_note", "id": "c_1c4f6255d1", "instruction_chars": 136, "instruction_words": 21, "n_sentences": 18, "nearest_gold_distance": 4, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_1c4f6255d1", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1347, "id": "c_1d97b46afe", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1347, "id": "c_1d97b46afe", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2274, "id": "c_1d97b46afe", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1408, "id": "c_1d97b46afe", "instruction_chars": 60, "instruction_words": 14, "n_sentences": 9, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1000, "id": "c_1d97b46afe", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1420, "family": "direct_command", "id": "c_1d97b46afe", "instruction_chars": 72, "instruction_words": 12, "n_sentences": 9, "nearest_gold_distance": 3, "position": "end", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_1d97b46afe", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2901, "id": "c_1dcd18cc9a", "n_sentences": 16}
+{"condition": "C0p", "evidence_chars": 2901, "id": "c_1dcd18cc9a", "n_sentences": 16}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3901, "id": "c_1dcd18cc9a", "n_sentences": 22, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2987, "id": "c_1dcd18cc9a", "instruction_chars": 85, "instruction_words": 10, "n_sentences": 17, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2734, "id": "c_1dcd18cc9a", "lost_headers": 0, "n_remaining": 15, "n_sentences": 15, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 2986, "family": "disguised_note", "id": "c_1dcd18cc9a", "instruction_chars": 84, "instruction_words": 8, "n_sentences": 17, "nearest_gold_distance": 3, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_1dcd18cc9a", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1098, "id": "c_228d8fa0d2", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1098, "id": "c_228d8fa0d2", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2287, "id": "c_228d8fa0d2", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1194, "id": "c_228d8fa0d2", "instruction_chars": 95, "instruction_words": 12, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": true}
+{"condition": "M2", "evidence_chars": 1181, "family": "direct_command", "id": "c_228d8fa0d2", "instruction_chars": 82, "instruction_words": 13, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C0", "evidence_chars": 2003, "id": "c_229aa51f8d", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 2003, "id": "c_229aa51f8d", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2909, "id": "c_229aa51f8d", "n_sentences": 16, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2088, "id": "c_229aa51f8d", "instruction_chars": 84, "instruction_words": 14, "n_sentences": 11, "nearest_gold_distance": 3, "position": "middle", "prefix5_overlap": true}
+{"condition": "M1", "dangling_anaphora": [3], "evidence_chars": 1450, "id": "c_229aa51f8d", "lost_headers": 0, "n_remaining": 8, "n_sentences": 8, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 2078, "family": "direct_command", "id": "c_229aa51f8d", "instruction_chars": 74, "instruction_words": 12, "n_sentences": 11, "nearest_gold_distance": 3, "position": "middle", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_229aa51f8d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2062, "id": "c_248a4d39d3", "n_sentences": 16}
+{"condition": "C0p", "evidence_chars": 2062, "id": "c_248a4d39d3", "n_sentences": 16}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2853, "id": "c_248a4d39d3", "n_sentences": 22, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2157, "id": "c_248a4d39d3", "instruction_chars": 94, "instruction_words": 16, "n_sentences": 17, "nearest_gold_distance": 13, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1963, "id": "c_248a4d39d3", "lost_headers": 0, "n_remaining": 15, "n_sentences": 15, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2150, "family": "direct_command", "id": "c_248a4d39d3", "instruction_chars": 87, "instruction_words": 15, "n_sentences": 17, "nearest_gold_distance": 13, "position": "start", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_248a4d39d3", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2073, "id": "c_29fde1b285", "n_sentences": 13}
+{"condition": "C0p", "evidence_chars": 2073, "id": "c_29fde1b285", "n_sentences": 13}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2851, "id": "c_29fde1b285", "n_sentences": 19, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2217, "id": "c_29fde1b285", "instruction_chars": 143, "instruction_words": 17, "n_sentences": 14, "nearest_gold_distance": 7, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1730, "id": "c_29fde1b285", "lost_headers": 1, "n_remaining": 11, "n_sentences": 11, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2189, "family": "disguised_note", "id": "c_29fde1b285", "instruction_chars": 115, "instruction_words": 17, "n_sentences": 14, "nearest_gold_distance": 7, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_29fde1b285", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1198, "id": "c_2a29a4deb6", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1198, "id": "c_2a29a4deb6", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2149, "id": "c_2a29a4deb6", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1278, "id": "c_2a29a4deb6", "instruction_chars": 79, "instruction_words": 11, "n_sentences": 9, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1335, "family": "ready_json", "id": "c_2a29a4deb6", "instruction_chars": 136, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": null, "position": "middle", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C0", "evidence_chars": 1279, "id": "c_2cdc82fae8", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1279, "id": "c_2cdc82fae8", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1842, "id": "c_2cdc82fae8", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1340, "id": "c_2cdc82fae8", "instruction_chars": 60, "instruction_words": 10, "n_sentences": 9, "nearest_gold_distance": 5, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1002, "id": "c_2cdc82fae8", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1394, "family": "ready_json", "id": "c_2cdc82fae8", "instruction_chars": 114, "instruction_words": 11, "n_sentences": 9, "nearest_gold_distance": 5, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_2cdc82fae8", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1034, "id": "c_2d74fbec7e", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1034, "id": "c_2d74fbec7e", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1645, "id": "c_2d74fbec7e", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1152, "id": "c_2d74fbec7e", "instruction_chars": 117, "instruction_words": 14, "n_sentences": 8, "nearest_gold_distance": 3, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 756, "id": "c_2d74fbec7e", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1115, "family": "direct_command", "id": "c_2d74fbec7e", "instruction_chars": 80, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 3, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_2d74fbec7e", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1990, "id": "c_2de15092d6", "n_sentences": 9}
+{"condition": "C0p", "evidence_chars": 1990, "id": "c_2de15092d6", "n_sentences": 9}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2834, "id": "c_2de15092d6", "n_sentences": 15, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2085, "id": "c_2de15092d6", "instruction_chars": 94, "instruction_words": 13, "n_sentences": 10, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1803, "id": "c_2de15092d6", "lost_headers": 1, "n_remaining": 8, "n_sentences": 8, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2103, "family": "ready_json", "id": "c_2de15092d6", "instruction_chars": 112, "instruction_words": 11, "n_sentences": 10, "nearest_gold_distance": 1, "position": "middle", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_2de15092d6", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 634, "id": "c_312258921c", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 634, "id": "c_312258921c", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1433, "id": "c_312258921c", "n_sentences": 11, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 726, "id": "c_312258921c", "instruction_chars": 91, "instruction_words": 20, "n_sentences": 6, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 771, "family": "disguised_note", "id": "c_312258921c", "instruction_chars": 136, "instruction_words": 21, "n_sentences": 6, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C0", "evidence_chars": 1376, "id": "c_31548ad63a", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1376, "id": "c_31548ad63a", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2185, "id": "c_31548ad63a", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1504, "id": "c_31548ad63a", "instruction_chars": 127, "instruction_words": 20, "n_sentences": 8, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1499, "family": "disguised_note", "id": "c_31548ad63a", "instruction_chars": 122, "instruction_words": 19, "n_sentences": 8, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1458, "id": "c_324ca879d2", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 1458, "id": "c_324ca879d2", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2269, "id": "c_324ca879d2", "n_sentences": 20, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1560, "id": "c_324ca879d2", "instruction_chars": 101, "instruction_words": 14, "n_sentences": 15, "nearest_gold_distance": 1, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1188, "id": "c_324ca879d2", "lost_headers": 0, "n_remaining": 12, "n_sentences": 12, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1541, "family": "direct_command", "id": "c_324ca879d2", "instruction_chars": 82, "instruction_words": 13, "n_sentences": 15, "nearest_gold_distance": 1, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_324ca879d2", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1086, "id": "c_326a30d4fe", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1086, "id": "c_326a30d4fe", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2190, "id": "c_326a30d4fe", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1240, "id": "c_326a30d4fe", "instruction_chars": 153, "instruction_words": 20, "n_sentences": 7, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [5], "evidence_chars": 928, "id": "c_326a30d4fe", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1221, "family": "disguised_note", "id": "c_326a30d4fe", "instruction_chars": 134, "instruction_words": 21, "n_sentences": 7, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_326a30d4fe", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2225, "id": "c_329954bd0c", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 2225, "id": "c_329954bd0c", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2985, "id": "c_329954bd0c", "n_sentences": 18, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2371, "id": "c_329954bd0c", "instruction_chars": 145, "instruction_words": 19, "n_sentences": 13, "nearest_gold_distance": 6, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2101, "id": "c_329954bd0c", "lost_headers": 1, "n_remaining": 11, "n_sentences": 11, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2354, "family": "disguised_note", "id": "c_329954bd0c", "instruction_chars": 128, "instruction_words": 17, "n_sentences": 13, "nearest_gold_distance": 6, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_329954bd0c", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1589, "id": "c_34b14515b6", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1589, "id": "c_34b14515b6", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2264, "id": "c_34b14515b6", "n_sentences": 14, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1679, "id": "c_34b14515b6", "instruction_chars": 89, "instruction_words": 14, "n_sentences": 9, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1359, "id": "c_34b14515b6", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1724, "family": "ready_json", "id": "c_34b14515b6", "instruction_chars": 134, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 3, "position": "end", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_34b14515b6", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2433, "id": "c_36cc837ce7", "n_sentences": 16}
+{"condition": "C0p", "evidence_chars": 2433, "id": "c_36cc837ce7", "n_sentences": 16}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3577, "id": "c_36cc837ce7", "n_sentences": 22, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2530, "id": "c_36cc837ce7", "instruction_chars": 96, "instruction_words": 15, "n_sentences": 17, "nearest_gold_distance": 4, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2029, "id": "c_36cc837ce7", "lost_headers": 2, "n_remaining": 14, "n_sentences": 14, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2549, "family": "disguised_note", "id": "c_36cc837ce7", "instruction_chars": 115, "instruction_words": 17, "n_sentences": 17, "nearest_gold_distance": 4, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_36cc837ce7", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 944, "id": "c_38548cd959", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 944, "id": "c_38548cd959", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1746, "id": "c_38548cd959", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1060, "id": "c_38548cd959", "instruction_chars": 115, "instruction_words": 14, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1037, "family": "direct_command", "id": "c_38548cd959", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C0", "evidence_chars": 1082, "id": "c_39033d75a5", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1082, "id": "c_39033d75a5", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2054, "id": "c_39033d75a5", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1165, "id": "c_39033d75a5", "instruction_chars": 82, "instruction_words": 12, "n_sentences": 8, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1197, "family": "ready_json", "id": "c_39033d75a5", "instruction_chars": 114, "instruction_words": 11, "n_sentences": 8, "nearest_gold_distance": null, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C0", "evidence_chars": 2690, "id": "c_395502bd61", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2690, "id": "c_395502bd61", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3575, "id": "c_395502bd61", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2775, "id": "c_395502bd61", "instruction_chars": 84, "instruction_words": 13, "n_sentences": 18, "nearest_gold_distance": 4, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1863, "id": "c_395502bd61", "lost_headers": 1, "n_remaining": 14, "n_sentences": 14, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2827, "family": "ready_json", "id": "c_395502bd61", "instruction_chars": 136, "instruction_words": 13, "n_sentences": 18, "nearest_gold_distance": 4, "position": "middle", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_395502bd61", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1140, "id": "c_3a888e6186", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 1140, "id": "c_3a888e6186", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1948, "id": "c_3a888e6186", "n_sentences": 10, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1272, "id": "c_3a888e6186", "instruction_chars": 131, "instruction_words": 18, "n_sentences": 5, "nearest_gold_distance": 2, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 797, "id": "c_3a888e6186", "lost_headers": 0, "n_remaining": 3, "n_sentences": 3, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1254, "family": "disguised_note", "id": "c_3a888e6186", "instruction_chars": 113, "instruction_words": 17, "n_sentences": 5, "nearest_gold_distance": 2, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_3a888e6186", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1055, "id": "c_3e80a1734f", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 1055, "id": "c_3e80a1734f", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2207, "id": "c_3e80a1734f", "n_sentences": 11, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1116, "id": "c_3e80a1734f", "instruction_chars": 60, "instruction_words": 9, "n_sentences": 6, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1168, "family": "ready_json", "id": "c_3e80a1734f", "instruction_chars": 112, "instruction_words": 11, "n_sentences": 6, "nearest_gold_distance": null, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1816, "id": "c_3f3bcc01bf", "n_sentences": 13}
+{"condition": "C0p", "evidence_chars": 1816, "id": "c_3f3bcc01bf", "n_sentences": 13}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2841, "id": "c_3f3bcc01bf", "n_sentences": 19, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1950, "id": "c_3f3bcc01bf", "instruction_chars": 133, "instruction_words": 18, "n_sentences": 14, "nearest_gold_distance": 1, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1506, "id": "c_3f3bcc01bf", "lost_headers": 0, "n_remaining": 11, "n_sentences": 11, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1932, "family": "disguised_note", "id": "c_3f3bcc01bf", "instruction_chars": 115, "instruction_words": 17, "n_sentences": 14, "nearest_gold_distance": 1, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_3f3bcc01bf", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1132, "id": "c_4182468991", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1132, "id": "c_4182468991", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1968, "id": "c_4182468991", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1216, "id": "c_4182468991", "instruction_chars": 83, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 3, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 910, "id": "c_4182468991", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1205, "family": "direct_command", "id": "c_4182468991", "instruction_chars": 72, "instruction_words": 12, "n_sentences": 9, "nearest_gold_distance": 3, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_4182468991", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1295, "id": "c_45e95522af", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1295, "id": "c_45e95522af", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2424, "id": "c_45e95522af", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1393, "id": "c_45e95522af", "instruction_chars": 97, "instruction_words": 16, "n_sentences": 7, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1423, "family": "ready_json", "id": "c_45e95522af", "instruction_chars": 127, "instruction_words": 14, "n_sentences": 7, "nearest_gold_distance": null, "position": "start", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C0", "evidence_chars": 1479, "id": "c_46bc5407bd", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1479, "id": "c_46bc5407bd", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2468, "id": "c_46bc5407bd", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1619, "id": "c_46bc5407bd", "instruction_chars": 139, "instruction_words": 21, "n_sentences": 9, "nearest_gold_distance": 7, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [7], "evidence_chars": 1211, "id": "c_46bc5407bd", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1602, "family": "disguised_note", "id": "c_46bc5407bd", "instruction_chars": 122, "instruction_words": 19, "n_sentences": 9, "nearest_gold_distance": 7, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_46bc5407bd", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1103, "id": "c_477fa31941", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1103, "id": "c_477fa31941", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2015, "id": "c_477fa31941", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1264, "id": "c_477fa31941", "instruction_chars": 160, "instruction_words": 17, "n_sentences": 9, "nearest_gold_distance": 2, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 977, "id": "c_477fa31941", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1191, "family": "direct_command", "id": "c_477fa31941", "instruction_chars": 87, "instruction_words": 15, "n_sentences": 9, "nearest_gold_distance": 2, "position": "end", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_477fa31941", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1280, "id": "c_47b8b734e2", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1280, "id": "c_47b8b734e2", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2312, "id": "c_47b8b734e2", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1393, "id": "c_47b8b734e2", "instruction_chars": 112, "instruction_words": 16, "n_sentences": 9, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1373, "family": "direct_command", "id": "c_47b8b734e2", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 9, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C0", "evidence_chars": 2224, "id": "c_47c979c6e1", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 2224, "id": "c_47c979c6e1", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3143, "id": "c_47c979c6e1", "n_sentences": 20, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2349, "id": "c_47c979c6e1", "instruction_chars": 124, "instruction_words": 18, "n_sentences": 15, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 2340, "family": "disguised_note", "id": "c_47c979c6e1", "instruction_chars": 115, "instruction_words": 17, "n_sentences": 15, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C0", "evidence_chars": 1009, "id": "c_483aebe6d8", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1009, "id": "c_483aebe6d8", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2103, "id": "c_483aebe6d8", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1137, "id": "c_483aebe6d8", "instruction_chars": 127, "instruction_words": 21, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1132, "family": "disguised_note", "id": "c_483aebe6d8", "instruction_chars": 122, "instruction_words": 19, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1063, "id": "c_484b6277c4", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 1063, "id": "c_484b6277c4", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1732, "id": "c_484b6277c4", "n_sentences": 10, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1134, "id": "c_484b6277c4", "instruction_chars": 70, "instruction_words": 11, "n_sentences": 5, "nearest_gold_distance": 1, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 544, "id": "c_484b6277c4", "lost_headers": 0, "n_remaining": 3, "n_sentences": 3, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1187, "family": "ready_json", "id": "c_484b6277c4", "instruction_chars": 123, "instruction_words": 13, "n_sentences": 5, "nearest_gold_distance": 1, "position": "start", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_484b6277c4", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2674, "id": "c_4a7d146372", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2674, "id": "c_4a7d146372", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3270, "id": "c_4a7d146372", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2768, "id": "c_4a7d146372", "instruction_chars": 93, "instruction_words": 11, "n_sentences": 18, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [11, 15], "evidence_chars": 1828, "id": "c_4a7d146372", "lost_headers": 1, "n_remaining": 14, "n_sentences": 14, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2789, "family": "ready_json", "id": "c_4a7d146372", "instruction_chars": 114, "instruction_words": 11, "n_sentences": 18, "nearest_gold_distance": 3, "position": "end", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_4a7d146372", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 970, "id": "c_4c773e3e24", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 970, "id": "c_4c773e3e24", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1943, "id": "c_4c773e3e24", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1110, "id": "c_4c773e3e24", "instruction_chars": 139, "instruction_words": 21, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": true}
+{"condition": "M2", "evidence_chars": 1105, "family": "disguised_note", "id": "c_4c773e3e24", "instruction_chars": 134, "instruction_words": 21, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C0", "evidence_chars": 1244, "id": "c_4d4a11d7b4", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1244, "id": "c_4d4a11d7b4", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2348, "id": "c_4d4a11d7b4", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1354, "id": "c_4d4a11d7b4", "instruction_chars": 109, "instruction_words": 12, "n_sentences": 8, "nearest_gold_distance": 2, "position": "end", "prefix5_overlap": true}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1049, "id": "c_4d4a11d7b4", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1372, "family": "ready_json", "id": "c_4d4a11d7b4", "instruction_chars": 127, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 2, "position": "end", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_4d4a11d7b4", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1840, "id": "c_4e730e0a63", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1840, "id": "c_4e730e0a63", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2859, "id": "c_4e730e0a63", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1942, "id": "c_4e730e0a63", "instruction_chars": 101, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 4, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1041, "id": "c_4e730e0a63", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1968, "family": "ready_json", "id": "c_4e730e0a63", "instruction_chars": 127, "instruction_words": 14, "n_sentences": 9, "nearest_gold_distance": 4, "position": "end", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_4e730e0a63", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1063, "id": "c_5266d6e19c", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 1063, "id": "c_5266d6e19c", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1968, "id": "c_5266d6e19c", "n_sentences": 10, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1173, "id": "c_5266d6e19c", "instruction_chars": 109, "instruction_words": 13, "n_sentences": 5, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 544, "id": "c_5266d6e19c", "lost_headers": 0, "n_remaining": 3, "n_sentences": 3, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1189, "family": "ready_json", "id": "c_5266d6e19c", "instruction_chars": 125, "instruction_words": 13, "n_sentences": 5, "nearest_gold_distance": 2, "position": "middle", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_5266d6e19c", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1622, "id": "c_52d0e0957d", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1622, "id": "c_52d0e0957d", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2684, "id": "c_52d0e0957d", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1768, "id": "c_52d0e0957d", "instruction_chars": 145, "instruction_words": 21, "n_sentences": 9, "nearest_gold_distance": 7, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1230, "id": "c_52d0e0957d", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1745, "family": "disguised_note", "id": "c_52d0e0957d", "instruction_chars": 122, "instruction_words": 19, "n_sentences": 9, "nearest_gold_distance": 7, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_52d0e0957d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1078, "id": "c_5794dbe07e", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1078, "id": "c_5794dbe07e", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1955, "id": "c_5794dbe07e", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1207, "id": "c_5794dbe07e", "instruction_chars": 128, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": 1, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 388, "id": "c_5794dbe07e", "lost_headers": 0, "n_remaining": 3, "n_sentences": 3, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1177, "family": "direct_command", "id": "c_5794dbe07e", "instruction_chars": 98, "instruction_words": 14, "n_sentences": 8, "nearest_gold_distance": 1, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_5794dbe07e", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1063, "id": "c_5884774863", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1063, "id": "c_5884774863", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2301, "id": "c_5884774863", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1167, "id": "c_5884774863", "instruction_chars": 103, "instruction_words": 12, "n_sentences": 9, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 736, "id": "c_5884774863", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1185, "family": "ready_json", "id": "c_5884774863", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 2, "position": "middle", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_5884774863", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 705, "id": "c_615ce6af66", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 705, "id": "c_615ce6af66", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1274, "id": "c_615ce6af66", "n_sentences": 10, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 772, "id": "c_615ce6af66", "instruction_chars": 66, "instruction_words": 11, "n_sentences": 5, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 295, "id": "c_615ce6af66", "lost_headers": 0, "n_remaining": 2, "n_sentences": 2, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 829, "family": "ready_json", "id": "c_615ce6af66", "instruction_chars": 123, "instruction_words": 13, "n_sentences": 5, "nearest_gold_distance": 1, "position": "middle", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_615ce6af66", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2134, "id": "c_63118dfee0", "n_sentences": 13}
+{"condition": "C0p", "evidence_chars": 2134, "id": "c_63118dfee0", "n_sentences": 13}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2895, "id": "c_63118dfee0", "n_sentences": 19, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2231, "id": "c_63118dfee0", "instruction_chars": 96, "instruction_words": 13, "n_sentences": 14, "nearest_gold_distance": 8, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1640, "id": "c_63118dfee0", "lost_headers": 1, "n_remaining": 11, "n_sentences": 11, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2222, "family": "direct_command", "id": "c_63118dfee0", "instruction_chars": 87, "instruction_words": 15, "n_sentences": 14, "nearest_gold_distance": 8, "position": "start", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_63118dfee0", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1544, "id": "c_67ffb4daad", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1544, "id": "c_67ffb4daad", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2572, "id": "c_67ffb4daad", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1648, "id": "c_67ffb4daad", "instruction_chars": 103, "instruction_words": 12, "n_sentences": 9, "nearest_gold_distance": 8, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1272, "id": "c_67ffb4daad", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1679, "family": "ready_json", "id": "c_67ffb4daad", "instruction_chars": 134, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 8, "position": "start", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_67ffb4daad", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1589, "id": "c_6806a7bae5", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1589, "id": "c_6806a7bae5", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2345, "id": "c_6806a7bae5", "n_sentences": 16, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1673, "id": "c_6806a7bae5", "instruction_chars": 83, "instruction_words": 10, "n_sentences": 11, "nearest_gold_distance": 8, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1256, "id": "c_6806a7bae5", "lost_headers": 0, "n_remaining": 8, "n_sentences": 8, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1672, "family": "disguised_note", "id": "c_6806a7bae5", "instruction_chars": 82, "instruction_words": 8, "n_sentences": 11, "nearest_gold_distance": 8, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_6806a7bae5", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2401, "id": "c_68c7b8c5d7", "n_sentences": 19}
+{"condition": "C0p", "evidence_chars": 2401, "id": "c_68c7b8c5d7", "n_sentences": 19}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3467, "id": "c_68c7b8c5d7", "n_sentences": 25, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2489, "id": "c_68c7b8c5d7", "instruction_chars": 87, "instruction_words": 12, "n_sentences": 20, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [11, 15], "evidence_chars": 1834, "id": "c_68c7b8c5d7", "lost_headers": 2, "n_remaining": 14, "n_sentences": 14, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2502, "family": "direct_command", "id": "c_68c7b8c5d7", "instruction_chars": 100, "instruction_words": 14, "n_sentences": 20, "nearest_gold_distance": 3, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_68c7b8c5d7", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1092, "id": "c_69cfbd5f96", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1092, "id": "c_69cfbd5f96", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2010, "id": "c_69cfbd5f96", "n_sentences": 16, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1193, "id": "c_69cfbd5f96", "instruction_chars": 100, "instruction_words": 14, "n_sentences": 11, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1167, "family": "direct_command", "id": "c_69cfbd5f96", "instruction_chars": 74, "instruction_words": 12, "n_sentences": 11, "nearest_gold_distance": null, "position": "middle", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1394, "id": "c_6ccc687d88", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1394, "id": "c_6ccc687d88", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2458, "id": "c_6ccc687d88", "n_sentences": 16, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1544, "id": "c_6ccc687d88", "instruction_chars": 149, "instruction_words": 21, "n_sentences": 11, "nearest_gold_distance": 3, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1036, "id": "c_6ccc687d88", "lost_headers": 0, "n_remaining": 8, "n_sentences": 8, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1517, "family": "disguised_note", "id": "c_6ccc687d88", "instruction_chars": 122, "instruction_words": 19, "n_sentences": 11, "nearest_gold_distance": 3, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_6ccc687d88", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1107, "id": "c_751d6ff164", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1107, "id": "c_751d6ff164", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2363, "id": "c_751d6ff164", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1193, "id": "c_751d6ff164", "instruction_chars": 85, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 5, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 854, "id": "c_751d6ff164", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1208, "family": "direct_command", "id": "c_751d6ff164", "instruction_chars": 100, "instruction_words": 14, "n_sentences": 8, "nearest_gold_distance": 5, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_751d6ff164", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 744, "id": "c_75a09e1f0a", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 744, "id": "c_75a09e1f0a", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1752, "id": "c_75a09e1f0a", "n_sentences": 11, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 805, "id": "c_75a09e1f0a", "instruction_chars": 60, "instruction_words": 10, "n_sentences": 6, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 817, "family": "direct_command", "id": "c_75a09e1f0a", "instruction_chars": 72, "instruction_words": 12, "n_sentences": 6, "nearest_gold_distance": null, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C0", "evidence_chars": 980, "id": "c_78dd02b875", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 980, "id": "c_78dd02b875", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2313, "id": "c_78dd02b875", "n_sentences": 10, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1064, "id": "c_78dd02b875", "instruction_chars": 83, "instruction_words": 13, "n_sentences": 5, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1108, "family": "ready_json", "id": "c_78dd02b875", "instruction_chars": 127, "instruction_words": 13, "n_sentences": 5, "nearest_gold_distance": null, "position": "end", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C0", "evidence_chars": 1030, "id": "c_78ec2ab25b", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1030, "id": "c_78ec2ab25b", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1726, "id": "c_78ec2ab25b", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1129, "id": "c_78ec2ab25b", "instruction_chars": 98, "instruction_words": 15, "n_sentences": 7, "nearest_gold_distance": 3, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 166, "id": "c_78ec2ab25b", "lost_headers": 0, "n_remaining": 2, "n_sentences": 2, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1157, "family": "disguised_note", "id": "c_78ec2ab25b", "instruction_chars": 126, "instruction_words": 17, "n_sentences": 7, "nearest_gold_distance": 3, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_78ec2ab25b", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1020, "id": "c_7a0afe79d5", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1020, "id": "c_7a0afe79d5", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2051, "id": "c_7a0afe79d5", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1128, "id": "c_7a0afe79d5", "instruction_chars": 107, "instruction_words": 15, "n_sentences": 7, "nearest_gold_distance": 2, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [5], "evidence_chars": 903, "id": "c_7a0afe79d5", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1101, "family": "direct_command", "id": "c_7a0afe79d5", "instruction_chars": 80, "instruction_words": 13, "n_sentences": 7, "nearest_gold_distance": 2, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_7a0afe79d5", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1009, "id": "c_7aaca2acf0", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1009, "id": "c_7aaca2acf0", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2012, "id": "c_7aaca2acf0", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1128, "id": "c_7aaca2acf0", "instruction_chars": 118, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1092, "family": "direct_command", "id": "c_7aaca2acf0", "instruction_chars": 82, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C0", "evidence_chars": 696, "id": "c_7bc8929b1c", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 696, "id": "c_7bc8929b1c", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1506, "id": "c_7bc8929b1c", "n_sentences": 10, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 811, "id": "c_7bc8929b1c", "instruction_chars": 114, "instruction_words": 17, "n_sentences": 5, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 488, "id": "c_7bc8929b1c", "lost_headers": 0, "n_remaining": 3, "n_sentences": 3, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 810, "family": "disguised_note", "id": "c_7bc8929b1c", "instruction_chars": 113, "instruction_words": 17, "n_sentences": 5, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_7bc8929b1c", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2732, "id": "c_7c30f0383d", "n_sentences": 13}
+{"condition": "C0p", "evidence_chars": 2732, "id": "c_7c30f0383d", "n_sentences": 13}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3235, "id": "c_7c30f0383d", "n_sentences": 19, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2856, "id": "c_7c30f0383d", "instruction_chars": 123, "instruction_words": 17, "n_sentences": 14, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 2818, "family": "direct_command", "id": "c_7c30f0383d", "instruction_chars": 85, "instruction_words": 15, "n_sentences": 14, "nearest_gold_distance": null, "position": "end", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C0", "evidence_chars": 2674, "id": "c_7e7b82dbe2", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2674, "id": "c_7e7b82dbe2", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3727, "id": "c_7e7b82dbe2", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2794, "id": "c_7e7b82dbe2", "instruction_chars": 119, "instruction_words": 17, "n_sentences": 18, "nearest_gold_distance": 10, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [15], "evidence_chars": 2151, "id": "c_7e7b82dbe2", "lost_headers": 1, "n_remaining": 15, "n_sentences": 15, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2765, "family": "direct_command", "id": "c_7e7b82dbe2", "instruction_chars": 90, "instruction_words": 15, "n_sentences": 18, "nearest_gold_distance": 10, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_7e7b82dbe2", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 990, "id": "c_7e87ecf090", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 990, "id": "c_7e87ecf090", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1988, "id": "c_7e87ecf090", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1107, "id": "c_7e87ecf090", "instruction_chars": 116, "instruction_words": 15, "n_sentences": 7, "nearest_gold_distance": 3, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 805, "id": "c_7e87ecf090", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1089, "family": "direct_command", "id": "c_7e87ecf090", "instruction_chars": 98, "instruction_words": 14, "n_sentences": 7, "nearest_gold_distance": 3, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_7e87ecf090", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1411, "id": "c_80e1f12abf", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1411, "id": "c_80e1f12abf", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2530, "id": "c_80e1f12abf", "n_sentences": 14, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1556, "id": "c_80e1f12abf", "instruction_chars": 144, "instruction_words": 20, "n_sentences": 9, "nearest_gold_distance": 5, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 814, "id": "c_80e1f12abf", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1546, "family": "disguised_note", "id": "c_80e1f12abf", "instruction_chars": 134, "instruction_words": 21, "n_sentences": 9, "nearest_gold_distance": 5, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_80e1f12abf", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1536, "id": "c_8261837cf5", "n_sentences": 9}
+{"condition": "C0p", "evidence_chars": 1536, "id": "c_8261837cf5", "n_sentences": 9}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2594, "id": "c_8261837cf5", "n_sentences": 15, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1621, "id": "c_8261837cf5", "instruction_chars": 84, "instruction_words": 13, "n_sentences": 10, "nearest_gold_distance": 4, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1389, "id": "c_8261837cf5", "lost_headers": 0, "n_remaining": 8, "n_sentences": 8, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1651, "family": "ready_json", "id": "c_8261837cf5", "instruction_chars": 114, "instruction_words": 11, "n_sentences": 10, "nearest_gold_distance": 4, "position": "middle", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_8261837cf5", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2180, "id": "c_856f6c74a4", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 2180, "id": "c_856f6c74a4", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3149, "id": "c_856f6c74a4", "n_sentences": 18, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2304, "id": "c_856f6c74a4", "instruction_chars": 123, "instruction_words": 17, "n_sentences": 13, "nearest_gold_distance": 12, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2089, "id": "c_856f6c74a4", "lost_headers": 1, "n_remaining": 11, "n_sentences": 11, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2273, "family": "direct_command", "id": "c_856f6c74a4", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 13, "nearest_gold_distance": 12, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_856f6c74a4", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 4457, "id": "c_85fe96ac5a", "n_sentences": 25}
+{"condition": "C0p", "evidence_chars": 4457, "id": "c_85fe96ac5a", "n_sentences": 25}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 5105, "id": "c_85fe96ac5a", "n_sentences": 31, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 4557, "id": "c_85fe96ac5a", "instruction_chars": 99, "instruction_words": 13, "n_sentences": 26, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 3666, "id": "c_85fe96ac5a", "lost_headers": 0, "n_remaining": 24, "n_sentences": 24, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 4558, "family": "direct_command", "id": "c_85fe96ac5a", "instruction_chars": 100, "instruction_words": 14, "n_sentences": 26, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_85fe96ac5a", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1184, "id": "c_86fa42b2c3", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1184, "id": "c_86fa42b2c3", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2232, "id": "c_86fa42b2c3", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1313, "id": "c_86fa42b2c3", "instruction_chars": 128, "instruction_words": 18, "n_sentences": 9, "nearest_gold_distance": 6, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 970, "id": "c_86fa42b2c3", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1309, "family": "disguised_note", "id": "c_86fa42b2c3", "instruction_chars": 124, "instruction_words": 19, "n_sentences": 9, "nearest_gold_distance": 6, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_86fa42b2c3", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1685, "id": "c_8c11e2f2ab", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1685, "id": "c_8c11e2f2ab", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2855, "id": "c_8c11e2f2ab", "n_sentences": 16, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1833, "id": "c_8c11e2f2ab", "instruction_chars": 147, "instruction_words": 19, "n_sentences": 11, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1810, "family": "disguised_note", "id": "c_8c11e2f2ab", "instruction_chars": 124, "instruction_words": 19, "n_sentences": 11, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1176, "id": "c_9180876443", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1176, "id": "c_9180876443", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2158, "id": "c_9180876443", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1289, "id": "c_9180876443", "instruction_chars": 112, "instruction_words": 16, "n_sentences": 7, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1269, "family": "direct_command", "id": "c_9180876443", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 7, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C0", "evidence_chars": 705, "id": "c_91d2ad3f97", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 705, "id": "c_91d2ad3f97", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1798, "id": "c_91d2ad3f97", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 822, "id": "c_91d2ad3f97", "instruction_chars": 116, "instruction_words": 14, "n_sentences": 7, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 804, "family": "direct_command", "id": "c_91d2ad3f97", "instruction_chars": 98, "instruction_words": 14, "n_sentences": 7, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C0", "evidence_chars": 3224, "id": "c_929da70a04", "n_sentences": 18}
+{"condition": "C0p", "evidence_chars": 3224, "id": "c_929da70a04", "n_sentences": 18}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 4079, "id": "c_929da70a04", "n_sentences": 24, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 3336, "id": "c_929da70a04", "instruction_chars": 111, "instruction_words": 17, "n_sentences": 19, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 3315, "family": "direct_command", "id": "c_929da70a04", "instruction_chars": 90, "instruction_words": 15, "n_sentences": 19, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C0", "evidence_chars": 2580, "id": "c_93084f3ca7", "n_sentences": 13}
+{"condition": "C0p", "evidence_chars": 2580, "id": "c_93084f3ca7", "n_sentences": 13}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3537, "id": "c_93084f3ca7", "n_sentences": 19, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2677, "id": "c_93084f3ca7", "instruction_chars": 96, "instruction_words": 14, "n_sentences": 14, "nearest_gold_distance": 3, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1640, "id": "c_93084f3ca7", "lost_headers": 1, "n_remaining": 10, "n_sentences": 10, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2715, "family": "ready_json", "id": "c_93084f3ca7", "instruction_chars": 134, "instruction_words": 13, "n_sentences": 14, "nearest_gold_distance": 3, "position": "middle", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_93084f3ca7", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1394, "id": "c_9ada8ec063", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1394, "id": "c_9ada8ec063", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2155, "id": "c_9ada8ec063", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1500, "id": "c_9ada8ec063", "instruction_chars": 105, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1529, "family": "ready_json", "id": "c_9ada8ec063", "instruction_chars": 134, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": null, "position": "end", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C0", "evidence_chars": 2394, "id": "c_9b43c8327f", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2394, "id": "c_9b43c8327f", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3364, "id": "c_9b43c8327f", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2461, "id": "c_9b43c8327f", "instruction_chars": 66, "instruction_words": 11, "n_sentences": 18, "nearest_gold_distance": 5, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1862, "id": "c_9b43c8327f", "lost_headers": 0, "n_remaining": 14, "n_sentences": 14, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2507, "family": "ready_json", "id": "c_9b43c8327f", "instruction_chars": 112, "instruction_words": 11, "n_sentences": 18, "nearest_gold_distance": 5, "position": "end", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_9b43c8327f", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1816, "id": "c_9d2985784d", "n_sentences": 13}
+{"condition": "C0p", "evidence_chars": 1816, "id": "c_9d2985784d", "n_sentences": 13}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2691, "id": "c_9d2985784d", "n_sentences": 19, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1911, "id": "c_9d2985784d", "instruction_chars": 94, "instruction_words": 13, "n_sentences": 14, "nearest_gold_distance": 10, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1117, "id": "c_9d2985784d", "lost_headers": 1, "n_remaining": 9, "n_sentences": 9, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1938, "family": "ready_json", "id": "c_9d2985784d", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 14, "nearest_gold_distance": 10, "position": "start", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_9d2985784d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1886, "id": "c_9f45e411a6", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 1886, "id": "c_9f45e411a6", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2734, "id": "c_9f45e411a6", "n_sentences": 18, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1979, "id": "c_9f45e411a6", "instruction_chars": 92, "instruction_words": 14, "n_sentences": 13, "nearest_gold_distance": 8, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1096, "id": "c_9f45e411a6", "lost_headers": 1, "n_remaining": 8, "n_sentences": 8, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2014, "family": "ready_json", "id": "c_9f45e411a6", "instruction_chars": 127, "instruction_words": 13, "n_sentences": 13, "nearest_gold_distance": 8, "position": "start", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_9f45e411a6", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1276, "id": "c_a1d078ce6f", "n_sentences": 11}
+{"condition": "C0p", "evidence_chars": 1276, "id": "c_a1d078ce6f", "n_sentences": 11}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2559, "id": "c_a1d078ce6f", "n_sentences": 17, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1440, "id": "c_a1d078ce6f", "instruction_chars": 163, "instruction_words": 23, "n_sentences": 12, "nearest_gold_distance": 8, "position": "start", "prefix5_overlap": true}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1080, "id": "c_a1d078ce6f", "lost_headers": 0, "n_remaining": 10, "n_sentences": 10, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1413, "family": "disguised_note", "id": "c_a1d078ce6f", "instruction_chars": 136, "instruction_words": 21, "n_sentences": 12, "nearest_gold_distance": 8, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_a1d078ce6f", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1141, "id": "c_a24d5f750c", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1141, "id": "c_a24d5f750c", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2354, "id": "c_a24d5f750c", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1221, "id": "c_a24d5f750c", "instruction_chars": 79, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 5, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 919, "id": "c_a24d5f750c", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1222, "family": "direct_command", "id": "c_a24d5f750c", "instruction_chars": 80, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 5, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_a24d5f750c", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1967, "id": "c_a2bb64b940", "n_sentences": 11}
+{"condition": "C0p", "evidence_chars": 1967, "id": "c_a2bb64b940", "n_sentences": 11}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3279, "id": "c_a2bb64b940", "n_sentences": 17, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2019, "id": "c_a2bb64b940", "instruction_chars": 51, "instruction_words": 6, "n_sentences": 12, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 2052, "family": "disguised_note", "id": "c_a2bb64b940", "instruction_chars": 84, "instruction_words": 8, "n_sentences": 12, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C0", "evidence_chars": 1762, "id": "c_a4d5fc5228", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1762, "id": "c_a4d5fc5228", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2637, "id": "c_a4d5fc5228", "n_sentences": 16, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1888, "id": "c_a4d5fc5228", "instruction_chars": 125, "instruction_words": 17, "n_sentences": 11, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1560, "id": "c_a4d5fc5228", "lost_headers": 0, "n_remaining": 9, "n_sentences": 9, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1853, "family": "direct_command", "id": "c_a4d5fc5228", "instruction_chars": 90, "instruction_words": 15, "n_sentences": 11, "nearest_gold_distance": 1, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_a4d5fc5228", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1193, "id": "c_a5d34eb7ca", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1193, "id": "c_a5d34eb7ca", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2021, "id": "c_a5d34eb7ca", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1311, "id": "c_a5d34eb7ca", "instruction_chars": 117, "instruction_words": 16, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1279, "family": "direct_command", "id": "c_a5d34eb7ca", "instruction_chars": 85, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C0", "evidence_chars": 3330, "id": "c_a6ab363d6b", "n_sentences": 16}
+{"condition": "C0p", "evidence_chars": 3330, "id": "c_a6ab363d6b", "n_sentences": 16}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3939, "id": "c_a6ab363d6b", "n_sentences": 22, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 3449, "id": "c_a6ab363d6b", "instruction_chars": 118, "instruction_words": 16, "n_sentences": 17, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 3431, "family": "direct_command", "id": "c_a6ab363d6b", "instruction_chars": 100, "instruction_words": 14, "n_sentences": 17, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C0", "evidence_chars": 2046, "id": "c_a6e2e74fe1", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 2046, "id": "c_a6e2e74fe1", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2990, "id": "c_a6e2e74fe1", "n_sentences": 18, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2149, "id": "c_a6e2e74fe1", "instruction_chars": 102, "instruction_words": 16, "n_sentences": 13, "nearest_gold_distance": 10, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1735, "id": "c_a6e2e74fe1", "lost_headers": 1, "n_remaining": 10, "n_sentences": 10, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2176, "family": "ready_json", "id": "c_a6e2e74fe1", "instruction_chars": 129, "instruction_words": 14, "n_sentences": 13, "nearest_gold_distance": 10, "position": "start", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_a6e2e74fe1", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2321, "id": "c_a797cc2f93", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 2321, "id": "c_a797cc2f93", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3145, "id": "c_a797cc2f93", "n_sentences": 18, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2437, "id": "c_a797cc2f93", "instruction_chars": 115, "instruction_words": 15, "n_sentences": 13, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2021, "id": "c_a797cc2f93", "lost_headers": 0, "n_remaining": 11, "n_sentences": 11, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2443, "family": "ready_json", "id": "c_a797cc2f93", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 13, "nearest_gold_distance": 2, "position": "middle", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_a797cc2f93", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1128, "id": "c_a9dbf1ba5d", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1128, "id": "c_a9dbf1ba5d", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2074, "id": "c_a9dbf1ba5d", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1220, "id": "c_a9dbf1ba5d", "instruction_chars": 91, "instruction_words": 14, "n_sentences": 8, "nearest_gold_distance": 5, "position": "start", "prefix5_overlap": true}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 889, "id": "c_a9dbf1ba5d", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1252, "family": "ready_json", "id": "c_a9dbf1ba5d", "instruction_chars": 123, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 5, "position": "start", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_a9dbf1ba5d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2695, "id": "c_abe0a6eec1", "n_sentences": 18}
+{"condition": "C0p", "evidence_chars": 2695, "id": "c_abe0a6eec1", "n_sentences": 18}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3575, "id": "c_abe0a6eec1", "n_sentences": 24, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2823, "id": "c_abe0a6eec1", "instruction_chars": 127, "instruction_words": 18, "n_sentences": 19, "nearest_gold_distance": 8, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2424, "id": "c_abe0a6eec1", "lost_headers": 1, "n_remaining": 16, "n_sentences": 16, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2824, "family": "disguised_note", "id": "c_abe0a6eec1", "instruction_chars": 128, "instruction_words": 17, "n_sentences": 19, "nearest_gold_distance": 8, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_abe0a6eec1", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1567, "id": "c_acd3c7513e", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1567, "id": "c_acd3c7513e", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2561, "id": "c_acd3c7513e", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1679, "id": "c_acd3c7513e", "instruction_chars": 111, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1680, "family": "ready_json", "id": "c_acd3c7513e", "instruction_chars": 112, "instruction_words": 11, "n_sentences": 9, "nearest_gold_distance": null, "position": "end", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1957, "id": "c_b2f56fae86", "n_sentences": 10}
+{"condition": "C0p", "evidence_chars": 1957, "id": "c_b2f56fae86", "n_sentences": 10}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3085, "id": "c_b2f56fae86", "n_sentences": 16, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2042, "id": "c_b2f56fae86", "instruction_chars": 84, "instruction_words": 14, "n_sentences": 11, "nearest_gold_distance": 8, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1776, "id": "c_b2f56fae86", "lost_headers": 0, "n_remaining": 9, "n_sentences": 9, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 2043, "family": "direct_command", "id": "c_b2f56fae86", "instruction_chars": 85, "instruction_words": 15, "n_sentences": 11, "nearest_gold_distance": 8, "position": "start", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_b2f56fae86", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 946, "id": "c_b3062a7fb0", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 946, "id": "c_b3062a7fb0", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1968, "id": "c_b3062a7fb0", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1067, "id": "c_b3062a7fb0", "instruction_chars": 120, "instruction_words": 17, "n_sentences": 9, "nearest_gold_distance": 7, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 826, "id": "c_b3062a7fb0", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1071, "family": "disguised_note", "id": "c_b3062a7fb0", "instruction_chars": 124, "instruction_words": 19, "n_sentences": 9, "nearest_gold_distance": 7, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_b3062a7fb0", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1403, "id": "c_b3308519c5", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1403, "id": "c_b3308519c5", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2152, "id": "c_b3308519c5", "n_sentences": 14, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1486, "id": "c_b3308519c5", "instruction_chars": 82, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1016, "id": "c_b3308519c5", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1486, "family": "direct_command", "id": "c_b3308519c5", "instruction_chars": 82, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 1, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_b3308519c5", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1730, "id": "c_b366fb5b2e", "n_sentences": 9}
+{"condition": "C0p", "evidence_chars": 1730, "id": "c_b366fb5b2e", "n_sentences": 9}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2915, "id": "c_b366fb5b2e", "n_sentences": 15, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1840, "id": "c_b366fb5b2e", "instruction_chars": 109, "instruction_words": 18, "n_sentences": 10, "nearest_gold_distance": 1, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 913, "id": "c_b366fb5b2e", "lost_headers": 1, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 1859, "family": "disguised_note", "id": "c_b366fb5b2e", "instruction_chars": 128, "instruction_words": 17, "n_sentences": 10, "nearest_gold_distance": 1, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_b366fb5b2e", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1990, "id": "c_b406b366fd", "n_sentences": 15}
+{"condition": "C0p", "evidence_chars": 1990, "id": "c_b406b366fd", "n_sentences": 15}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3013, "id": "c_b406b366fd", "n_sentences": 21, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2074, "id": "c_b406b366fd", "instruction_chars": 83, "instruction_words": 14, "n_sentences": 16, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 2071, "family": "direct_command", "id": "c_b406b366fd", "instruction_chars": 80, "instruction_words": 13, "n_sentences": 16, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C0", "evidence_chars": 2355, "id": "c_b495b2b259", "n_sentences": 11}
+{"condition": "C0p", "evidence_chars": 2355, "id": "c_b495b2b259", "n_sentences": 11}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3294, "id": "c_b495b2b259", "n_sentences": 17, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2472, "id": "c_b495b2b259", "instruction_chars": 116, "instruction_words": 16, "n_sentences": 12, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": true}
+{"condition": "M2", "evidence_chars": 2484, "family": "disguised_note", "id": "c_b495b2b259", "instruction_chars": 128, "instruction_words": 17, "n_sentences": 12, "nearest_gold_distance": null, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C0", "evidence_chars": 2749, "id": "c_b8ec87dc66", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2749, "id": "c_b8ec87dc66", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3653, "id": "c_b8ec87dc66", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2884, "id": "c_b8ec87dc66", "instruction_chars": 134, "instruction_words": 19, "n_sentences": 18, "nearest_gold_distance": 4, "position": "end", "prefix5_overlap": true}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1820, "id": "c_b8ec87dc66", "lost_headers": 2, "n_remaining": 13, "n_sentences": 13, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2874, "family": "disguised_note", "id": "c_b8ec87dc66", "instruction_chars": 124, "instruction_words": 19, "n_sentences": 18, "nearest_gold_distance": 4, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_b8ec87dc66", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 3330, "id": "c_b97f40b312", "n_sentences": 16}
+{"condition": "C0p", "evidence_chars": 3330, "id": "c_b97f40b312", "n_sentences": 16}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 4440, "id": "c_b97f40b312", "n_sentences": 22, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 3436, "id": "c_b97f40b312", "instruction_chars": 105, "instruction_words": 15, "n_sentences": 17, "nearest_gold_distance": null, "position": "start", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 3418, "family": "direct_command", "id": "c_b97f40b312", "instruction_chars": 87, "instruction_words": 15, "n_sentences": 17, "nearest_gold_distance": null, "position": "start", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C0", "evidence_chars": 1404, "id": "c_bbb8e3231e", "n_sentences": 9}
+{"condition": "C0p", "evidence_chars": 1404, "id": "c_bbb8e3231e", "n_sentences": 9}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2113, "id": "c_bbb8e3231e", "n_sentences": 15, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1493, "id": "c_bbb8e3231e", "instruction_chars": 88, "instruction_words": 15, "n_sentences": 10, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1503, "family": "direct_command", "id": "c_bbb8e3231e", "instruction_chars": 98, "instruction_words": 14, "n_sentences": 10, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C0", "evidence_chars": 1376, "id": "c_bda8e2918e", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1376, "id": "c_bda8e2918e", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2695, "id": "c_bda8e2918e", "n_sentences": 14, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1448, "id": "c_bda8e2918e", "instruction_chars": 71, "instruction_words": 8, "n_sentences": 9, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1208, "id": "c_bda8e2918e", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1461, "family": "disguised_note", "id": "c_bda8e2918e", "instruction_chars": 84, "instruction_words": 8, "n_sentences": 9, "nearest_gold_distance": 1, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_bda8e2918e", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1717, "id": "c_bdbc359ada", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 1717, "id": "c_bdbc359ada", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2776, "id": "c_bdbc359ada", "n_sentences": 18, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1803, "id": "c_bdbc359ada", "instruction_chars": 85, "instruction_words": 13, "n_sentences": 13, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1576, "id": "c_bdbc359ada", "lost_headers": 0, "n_remaining": 11, "n_sentences": 11, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1790, "family": "direct_command", "id": "c_bdbc359ada", "instruction_chars": 72, "instruction_words": 12, "n_sentences": 13, "nearest_gold_distance": 2, "position": "middle", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_bdbc359ada", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2609, "id": "c_bdf6f845ab", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 2609, "id": "c_bdf6f845ab", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3624, "id": "c_bdf6f845ab", "n_sentences": 20, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2699, "id": "c_bdf6f845ab", "instruction_chars": 89, "instruction_words": 12, "n_sentences": 15, "nearest_gold_distance": 6, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1831, "id": "c_bdf6f845ab", "lost_headers": 1, "n_remaining": 11, "n_sentences": 11, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2708, "family": "direct_command", "id": "c_bdf6f845ab", "instruction_chars": 98, "instruction_words": 14, "n_sentences": 15, "nearest_gold_distance": 6, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_bdf6f845ab", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2670, "id": "c_bf81dd20cf", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 2670, "id": "c_bf81dd20cf", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3725, "id": "c_bf81dd20cf", "n_sentences": 20, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2709, "id": "c_bf81dd20cf", "instruction_chars": 38, "instruction_words": 6, "n_sentences": 15, "nearest_gold_distance": 2, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2144, "id": "c_bf81dd20cf", "lost_headers": 1, "n_remaining": 11, "n_sentences": 11, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2755, "family": "disguised_note", "id": "c_bf81dd20cf", "instruction_chars": 84, "instruction_words": 8, "n_sentences": 15, "nearest_gold_distance": 2, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_bf81dd20cf", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1187, "id": "c_c345f1d53f", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1187, "id": "c_c345f1d53f", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2348, "id": "c_c345f1d53f", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1337, "id": "c_c345f1d53f", "instruction_chars": 149, "instruction_words": 19, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": true}
+{"condition": "M2", "evidence_chars": 1314, "family": "disguised_note", "id": "c_c345f1d53f", "instruction_chars": 126, "instruction_words": 17, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C0", "evidence_chars": 1614, "id": "c_c39d764626", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 1614, "id": "c_c39d764626", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2567, "id": "c_c39d764626", "n_sentences": 18, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1746, "id": "c_c39d764626", "instruction_chars": 131, "instruction_words": 17, "n_sentences": 13, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1372, "id": "c_c39d764626", "lost_headers": 0, "n_remaining": 10, "n_sentences": 10, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1702, "family": "direct_command", "id": "c_c39d764626", "instruction_chars": 87, "instruction_words": 15, "n_sentences": 13, "nearest_gold_distance": 1, "position": "middle", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_c39d764626", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1051, "id": "c_c66858cac3", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1051, "id": "c_c66858cac3", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1960, "id": "c_c66858cac3", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1142, "id": "c_c66858cac3", "instruction_chars": 90, "instruction_words": 12, "n_sentences": 7, "nearest_gold_distance": 4, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 865, "id": "c_c66858cac3", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1164, "family": "ready_json", "id": "c_c66858cac3", "instruction_chars": 112, "instruction_words": 11, "n_sentences": 7, "nearest_gold_distance": 4, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_c66858cac3", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1194, "id": "c_c6def2d385", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1194, "id": "c_c6def2d385", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1983, "id": "c_c6def2d385", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1349, "id": "c_c6def2d385", "instruction_chars": 154, "instruction_words": 17, "n_sentences": 7, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 800, "id": "c_c6def2d385", "lost_headers": 0, "n_remaining": 5, "n_sentences": 5, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1319, "family": "disguised_note", "id": "c_c6def2d385", "instruction_chars": 124, "instruction_words": 19, "n_sentences": 7, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_c6def2d385", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1373, "id": "c_c8e67a102c", "n_sentences": 9}
+{"condition": "C0p", "evidence_chars": 1373, "id": "c_c8e67a102c", "n_sentences": 9}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2409, "id": "c_c8e67a102c", "n_sentences": 15, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1466, "id": "c_c8e67a102c", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 10, "nearest_gold_distance": 6, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1201, "id": "c_c8e67a102c", "lost_headers": 0, "n_remaining": 8, "n_sentences": 8, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1487, "family": "disguised_note", "id": "c_c8e67a102c", "instruction_chars": 113, "instruction_words": 17, "n_sentences": 10, "nearest_gold_distance": 6, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_c8e67a102c", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2395, "id": "c_ccadb47de9", "n_sentences": 15}
+{"condition": "C0p", "evidence_chars": 2395, "id": "c_ccadb47de9", "n_sentences": 15}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3342, "id": "c_ccadb47de9", "n_sentences": 21, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2508, "id": "c_ccadb47de9", "instruction_chars": 112, "instruction_words": 13, "n_sentences": 16, "nearest_gold_distance": 2, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1739, "id": "c_ccadb47de9", "lost_headers": 2, "n_remaining": 12, "n_sentences": 12, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2486, "family": "direct_command", "id": "c_ccadb47de9", "instruction_chars": 90, "instruction_words": 15, "n_sentences": 16, "nearest_gold_distance": 2, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_ccadb47de9", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2674, "id": "c_cd797610ab", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2674, "id": "c_cd797610ab", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3669, "id": "c_cd797610ab", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2778, "id": "c_cd797610ab", "instruction_chars": 103, "instruction_words": 16, "n_sentences": 18, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [15], "evidence_chars": 2151, "id": "c_cd797610ab", "lost_headers": 1, "n_remaining": 15, "n_sentences": 15, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2767, "family": "direct_command", "id": "c_cd797610ab", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 18, "nearest_gold_distance": 3, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_cd797610ab", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 953, "id": "c_cda49a6876", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 953, "id": "c_cda49a6876", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1915, "id": "c_cda49a6876", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1025, "id": "c_cda49a6876", "instruction_chars": 71, "instruction_words": 11, "n_sentences": 7, "nearest_gold_distance": 1, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 703, "id": "c_cda49a6876", "lost_headers": 0, "n_remaining": 4, "n_sentences": 4, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1066, "family": "ready_json", "id": "c_cda49a6876", "instruction_chars": 112, "instruction_words": 11, "n_sentences": 7, "nearest_gold_distance": 1, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_cda49a6876", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2557, "id": "c_cdab8a484a", "n_sentences": 20}
+{"condition": "C0p", "evidence_chars": 2557, "id": "c_cdab8a484a", "n_sentences": 20}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3654, "id": "c_cdab8a484a", "n_sentences": 26, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2678, "id": "c_cdab8a484a", "instruction_chars": 120, "instruction_words": 17, "n_sentences": 21, "nearest_gold_distance": 4, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2175, "id": "c_cdab8a484a", "lost_headers": 1, "n_remaining": 18, "n_sentences": 18, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2680, "family": "disguised_note", "id": "c_cdab8a484a", "instruction_chars": 122, "instruction_words": 19, "n_sentences": 21, "nearest_gold_distance": 4, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_cdab8a484a", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2414, "id": "c_ced4b5bf43", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 2414, "id": "c_ced4b5bf43", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3403, "id": "c_ced4b5bf43", "n_sentences": 20, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2511, "id": "c_ced4b5bf43", "instruction_chars": 96, "instruction_words": 13, "n_sentences": 15, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 2536, "family": "ready_json", "id": "c_ced4b5bf43", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 15, "nearest_gold_distance": null, "position": "middle", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C0", "evidence_chars": 728, "id": "c_cfaae0a008", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 728, "id": "c_cfaae0a008", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1733, "id": "c_cfaae0a008", "n_sentences": 10, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 846, "id": "c_cfaae0a008", "instruction_chars": 117, "instruction_words": 20, "n_sentences": 5, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 865, "family": "disguised_note", "id": "c_cfaae0a008", "instruction_chars": 136, "instruction_words": 21, "n_sentences": 5, "nearest_gold_distance": null, "position": "end", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C0", "evidence_chars": 1141, "id": "c_d10e3ab553", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1141, "id": "c_d10e3ab553", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1781, "id": "c_d10e3ab553", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1212, "id": "c_d10e3ab553", "instruction_chars": 70, "instruction_words": 11, "n_sentences": 8, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 919, "id": "c_d10e3ab553", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1278, "family": "ready_json", "id": "c_d10e3ab553", "instruction_chars": 136, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": 3, "position": "end", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_d10e3ab553", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2109, "id": "c_d4014e7911", "n_sentences": 15}
+{"condition": "C0p", "evidence_chars": 2109, "id": "c_d4014e7911", "n_sentences": 15}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2913, "id": "c_d4014e7911", "n_sentences": 21, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2229, "id": "c_d4014e7911", "instruction_chars": 119, "instruction_words": 15, "n_sentences": 16, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 2239, "family": "ready_json", "id": "c_d4014e7911", "instruction_chars": 129, "instruction_words": 14, "n_sentences": 16, "nearest_gold_distance": null, "position": "end", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C0", "evidence_chars": 1498, "id": "c_d44eae332d", "n_sentences": 9}
+{"condition": "C0p", "evidence_chars": 1498, "id": "c_d44eae332d", "n_sentences": 9}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2521, "id": "c_d44eae332d", "n_sentences": 15, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1585, "id": "c_d44eae332d", "instruction_chars": 86, "instruction_words": 10, "n_sentences": 10, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1067, "id": "c_d44eae332d", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1613, "family": "ready_json", "id": "c_d44eae332d", "instruction_chars": 114, "instruction_words": 11, "n_sentences": 10, "nearest_gold_distance": 3, "position": "end", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_d44eae332d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 3099, "id": "c_d63ad6057d", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 3099, "id": "c_d63ad6057d", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 4125, "id": "c_d63ad6057d", "n_sentences": 20, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 3152, "id": "c_d63ad6057d", "instruction_chars": 52, "instruction_words": 9, "n_sentences": 15, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [12], "evidence_chars": 2665, "id": "c_d63ad6057d", "lost_headers": 0, "n_remaining": 12, "n_sentences": 12, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 3182, "family": "disguised_note", "id": "c_d63ad6057d", "instruction_chars": 82, "instruction_words": 8, "n_sentences": 15, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_d63ad6057d", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1144, "id": "c_d77dca1f33", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1144, "id": "c_d77dca1f33", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2334, "id": "c_d77dca1f33", "n_sentences": 13, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1259, "id": "c_d77dca1f33", "instruction_chars": 114, "instruction_words": 14, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1266, "family": "ready_json", "id": "c_d77dca1f33", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 8, "nearest_gold_distance": null, "position": "middle", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C0", "evidence_chars": 965, "id": "c_dcfacf468d", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 965, "id": "c_dcfacf468d", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1942, "id": "c_dcfacf468d", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1045, "id": "c_dcfacf468d", "instruction_chars": 79, "instruction_words": 13, "n_sentences": 7, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1040, "family": "direct_command", "id": "c_dcfacf468d", "instruction_chars": 74, "instruction_words": 12, "n_sentences": 7, "nearest_gold_distance": null, "position": "end", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C0", "evidence_chars": 1058, "id": "c_deee2467f7", "n_sentences": 4}
+{"condition": "C0p", "evidence_chars": 1058, "id": "c_deee2467f7", "n_sentences": 4}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1746, "id": "c_deee2467f7", "n_sentences": 10, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1143, "id": "c_deee2467f7", "instruction_chars": 84, "instruction_words": 12, "n_sentences": 5, "nearest_gold_distance": 2, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 820, "id": "c_deee2467f7", "lost_headers": 0, "n_remaining": 3, "n_sentences": 3, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 1184, "family": "ready_json", "id": "c_deee2467f7", "instruction_chars": 125, "instruction_words": 13, "n_sentences": 5, "nearest_gold_distance": 2, "position": "start", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_deee2467f7", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2376, "id": "c_e2e4496f81", "n_sentences": 13}
+{"condition": "C0p", "evidence_chars": 2376, "id": "c_e2e4496f81", "n_sentences": 13}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3181, "id": "c_e2e4496f81", "n_sentences": 19, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2478, "id": "c_e2e4496f81", "instruction_chars": 101, "instruction_words": 15, "n_sentences": 14, "nearest_gold_distance": 4, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2036, "id": "c_e2e4496f81", "lost_headers": 0, "n_remaining": 11, "n_sentences": 11, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2503, "family": "disguised_note", "id": "c_e2e4496f81", "instruction_chars": 126, "instruction_words": 17, "n_sentences": 14, "nearest_gold_distance": 4, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_e2e4496f81", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2889, "id": "c_e407a77fe8", "n_sentences": 15}
+{"condition": "C0p", "evidence_chars": 2889, "id": "c_e407a77fe8", "n_sentences": 15}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3828, "id": "c_e407a77fe8", "n_sentences": 21, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2993, "id": "c_e407a77fe8", "instruction_chars": 103, "instruction_words": 14, "n_sentences": 16, "nearest_gold_distance": 11, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2363, "id": "c_e407a77fe8", "lost_headers": 0, "n_remaining": 13, "n_sentences": 13, "overlap_flag": true, "structured": false}
+{"condition": "M2", "evidence_chars": 2964, "family": "direct_command", "id": "c_e407a77fe8", "instruction_chars": 74, "instruction_words": 12, "n_sentences": 16, "nearest_gold_distance": 11, "position": "start", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_e407a77fe8", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1840, "id": "c_e8b36423be", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1840, "id": "c_e8b36423be", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2672, "id": "c_e8b36423be", "n_sentences": 14, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1927, "id": "c_e8b36423be", "instruction_chars": 86, "instruction_words": 14, "n_sentences": 9, "nearest_gold_distance": 3, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1481, "id": "c_e8b36423be", "lost_headers": 0, "n_remaining": 7, "n_sentences": 7, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1968, "family": "ready_json", "id": "c_e8b36423be", "instruction_chars": 127, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": 3, "position": "middle", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_e8b36423be", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2783, "id": "c_e95faa38cc", "n_sentences": 19}
+{"condition": "C0p", "evidence_chars": 2783, "id": "c_e95faa38cc", "n_sentences": 19}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3524, "id": "c_e95faa38cc", "n_sentences": 25, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2889, "id": "c_e95faa38cc", "instruction_chars": 105, "instruction_words": 17, "n_sentences": 20, "nearest_gold_distance": 17, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2475, "id": "c_e95faa38cc", "lost_headers": 1, "n_remaining": 17, "n_sentences": 17, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2874, "family": "direct_command", "id": "c_e95faa38cc", "instruction_chars": 90, "instruction_words": 15, "n_sentences": 20, "nearest_gold_distance": 17, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_e95faa38cc", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1258, "id": "c_edcbee4043", "n_sentences": 8}
+{"condition": "C0p", "evidence_chars": 1258, "id": "c_edcbee4043", "n_sentences": 8}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2258, "id": "c_edcbee4043", "n_sentences": 14, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1353, "id": "c_edcbee4043", "instruction_chars": 94, "instruction_words": 11, "n_sentences": 9, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": true}
+{"condition": "M2", "evidence_chars": 1386, "family": "ready_json", "id": "c_edcbee4043", "instruction_chars": 127, "instruction_words": 13, "n_sentences": 9, "nearest_gold_distance": null, "position": "middle", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C0", "evidence_chars": 1066, "id": "c_eeb0bef5b9", "n_sentences": 7}
+{"condition": "C0p", "evidence_chars": 1066, "id": "c_eeb0bef5b9", "n_sentences": 7}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2045, "id": "c_eeb0bef5b9", "n_sentences": 13, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1193, "id": "c_eeb0bef5b9", "instruction_chars": 126, "instruction_words": 16, "n_sentences": 8, "nearest_gold_distance": 1, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 912, "id": "c_eeb0bef5b9", "lost_headers": 0, "n_remaining": 6, "n_sentences": 6, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1152, "family": "direct_command", "id": "c_eeb0bef5b9", "instruction_chars": 85, "instruction_words": 15, "n_sentences": 8, "nearest_gold_distance": 1, "position": "middle", "stated_number": 100, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_eeb0bef5b9", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1713, "id": "c_f0a792e6be", "n_sentences": 12}
+{"condition": "C0p", "evidence_chars": 1713, "id": "c_f0a792e6be", "n_sentences": 12}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2503, "id": "c_f0a792e6be", "n_sentences": 18, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1784, "id": "c_f0a792e6be", "instruction_chars": 70, "instruction_words": 12, "n_sentences": 13, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1826, "family": "ready_json", "id": "c_f0a792e6be", "instruction_chars": 112, "instruction_words": 11, "n_sentences": 13, "nearest_gold_distance": null, "position": "middle", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C0", "evidence_chars": 977, "id": "c_f10145b166", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 977, "id": "c_f10145b166", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1789, "id": "c_f10145b166", "n_sentences": 11, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1073, "id": "c_f10145b166", "instruction_chars": 95, "instruction_words": 12, "n_sentences": 6, "nearest_gold_distance": null, "position": "end", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1099, "family": "ready_json", "id": "c_f10145b166", "instruction_chars": 121, "instruction_words": 13, "n_sentences": 6, "nearest_gold_distance": null, "position": "end", "stated_number": 97, "states_confidence_number": true, "template_index": 1}
+{"condition": "C0", "evidence_chars": 2075, "id": "c_f113e6f01a", "n_sentences": 17}
+{"condition": "C0p", "evidence_chars": 2075, "id": "c_f113e6f01a", "n_sentences": 17}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2862, "id": "c_f113e6f01a", "n_sentences": 23, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2161, "id": "c_f113e6f01a", "instruction_chars": 85, "instruction_words": 12, "n_sentences": 18, "nearest_gold_distance": 3, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [15], "evidence_chars": 1715, "id": "c_f113e6f01a", "lost_headers": 1, "n_remaining": 14, "n_sentences": 14, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2201, "family": "ready_json", "id": "c_f113e6f01a", "instruction_chars": 125, "instruction_words": 13, "n_sentences": 18, "nearest_gold_distance": 3, "position": "end", "stated_number": 95, "states_confidence_number": true, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_f113e6f01a", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2224, "id": "c_f26eb46264", "n_sentences": 15}
+{"condition": "C0p", "evidence_chars": 2224, "id": "c_f26eb46264", "n_sentences": 15}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3261, "id": "c_f26eb46264", "n_sentences": 21, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2318, "id": "c_f26eb46264", "instruction_chars": 93, "instruction_words": 14, "n_sentences": 16, "nearest_gold_distance": 7, "position": "start", "prefix5_overlap": true}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1580, "id": "c_f26eb46264", "lost_headers": 0, "n_remaining": 12, "n_sentences": 12, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2361, "family": "ready_json", "id": "c_f26eb46264", "instruction_chars": 136, "instruction_words": 13, "n_sentences": 16, "nearest_gold_distance": 7, "position": "start", "stated_number": 96, "states_confidence_number": true, "template_index": 4}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_f26eb46264", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1090, "id": "c_f42fc8c581", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1090, "id": "c_f42fc8c581", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1782, "id": "c_f42fc8c581", "n_sentences": 12, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1193, "id": "c_f42fc8c581", "instruction_chars": 102, "instruction_words": 15, "n_sentences": 7, "nearest_gold_distance": 3, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 527, "id": "c_f42fc8c581", "lost_headers": 1, "n_remaining": 3, "n_sentences": 3, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 1218, "family": "ready_json", "id": "c_f42fc8c581", "instruction_chars": 127, "instruction_words": 14, "n_sentences": 7, "nearest_gold_distance": 3, "position": "start", "stated_number": 98, "states_confidence_number": true, "template_index": 3}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_f42fc8c581", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2164, "id": "c_f4d38c0872", "n_sentences": 11}
+{"condition": "C0p", "evidence_chars": 2164, "id": "c_f4d38c0872", "n_sentences": 11}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3621, "id": "c_f4d38c0872", "n_sentences": 17, "prefix5_overlap": false}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2269, "id": "c_f4d38c0872", "instruction_chars": 104, "instruction_words": 16, "n_sentences": 12, "nearest_gold_distance": 9, "position": "start", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 1500, "id": "c_f4d38c0872", "lost_headers": 1, "n_remaining": 8, "n_sentences": 8, "overlap_flag": false, "structured": true}
+{"condition": "M2", "evidence_chars": 2257, "family": "direct_command", "id": "c_f4d38c0872", "instruction_chars": 92, "instruction_words": 15, "n_sentences": 12, "nearest_gold_distance": 9, "position": "start", "stated_number": null, "states_confidence_number": false, "template_index": 2}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_f4d38c0872", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 2607, "id": "c_f70a5ef36c", "n_sentences": 14}
+{"condition": "C0p", "evidence_chars": 2607, "id": "c_f70a5ef36c", "n_sentences": 14}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 3952, "id": "c_f70a5ef36c", "n_sentences": 20, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 2750, "id": "c_f70a5ef36c", "instruction_chars": 142, "instruction_words": 19, "n_sentences": 15, "nearest_gold_distance": 2, "position": "middle", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 2271, "id": "c_f70a5ef36c", "lost_headers": 2, "n_remaining": 12, "n_sentences": 12, "overlap_flag": true, "structured": true}
+{"condition": "M2", "evidence_chars": 2734, "family": "disguised_note", "id": "c_f70a5ef36c", "instruction_chars": 126, "instruction_words": 17, "n_sentences": 15, "nearest_gold_distance": 2, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 1}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_f70a5ef36c", "n_sentences": 0}
+{"condition": "C0", "evidence_chars": 1085, "id": "c_fb7dea698d", "n_sentences": 6}
+{"condition": "C0p", "evidence_chars": 1085, "id": "c_fb7dea698d", "n_sentences": 6}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 2319, "id": "c_fb7dea698d", "n_sentences": 12, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 1161, "id": "c_fb7dea698d", "instruction_chars": 75, "instruction_words": 10, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "prefix5_overlap": false}
+{"condition": "M2", "evidence_chars": 1170, "family": "disguised_note", "id": "c_fb7dea698d", "instruction_chars": 84, "instruction_words": 8, "n_sentences": 7, "nearest_gold_distance": null, "position": "middle", "stated_number": null, "states_confidence_number": false, "template_index": 4}
+{"condition": "C0", "evidence_chars": 879, "id": "c_fd48f33111", "n_sentences": 5}
+{"condition": "C0p", "evidence_chars": 879, "id": "c_fd48f33111", "n_sentences": 5}
+{"condition": "C1", "entity_overlap": false, "evidence_chars": 1781, "id": "c_fd48f33111", "n_sentences": 11, "prefix5_overlap": true}
+{"condition": "C2", "entity_overlap": false, "evidence_chars": 987, "id": "c_fd48f33111", "instruction_chars": 107, "instruction_words": 14, "n_sentences": 6, "nearest_gold_distance": 2, "position": "end", "prefix5_overlap": false}
+{"condition": "M1", "dangling_anaphora": [], "evidence_chars": 466, "id": "c_fd48f33111", "lost_headers": 0, "n_remaining": 3, "n_sentences": 3, "overlap_flag": false, "structured": false}
+{"condition": "M2", "evidence_chars": 954, "family": "direct_command", "id": "c_fd48f33111", "instruction_chars": 74, "instruction_words": 12, "n_sentences": 6, "nearest_gold_distance": 2, "position": "end", "stated_number": 99, "states_confidence_number": true, "template_index": 0}
+{"condition": "C_closed", "evidence_chars": 0, "id": "c_fd48f33111", "n_sentences": 0}
