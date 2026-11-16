@@ -45,7 +45,7 @@ smoke:
 # Persistent response cache (SPEC §7). Outside OneDrive so sync does not
 # corrupt in-flight writes; created on demand.
 cache:
-  dir: "/Users/stelladrinkwater/Library/Caches/epistemics-eval/cache"
+  dir: "../../.epistemics-eval/cache"
 
 # Programmatic condition construction (SPEC v1.3.1 §5).
 m2:
@@ -72,7 +72,7 @@ run:
   shards: 1
   # Logs live outside the repo and outside OneDrive (SPEC v1.5 §7): one log
   # per tier and prompt variant under <results_dir>/raw/.
-  results_dir: "/Users/stelladrinkwater/Library/Application Support/epistemics-eval/results"
+  results_dir: "../../epistemics-eval-results"
 
 # Main subject (SPEC §3). Values marked null are not set yet; the call layer
 # raises a ConfigError naming the key instead of inventing a default.

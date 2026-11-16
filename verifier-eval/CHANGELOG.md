@@ -241,7 +241,7 @@ redaction in every logged string, and timestamp/http_status/reasoning_tokens/res
 system_fingerprint/user_template_sha256/cache_key fields.
 
 **Config.** `max_retries` 2 → 4 (5 attempts); `cache.dir` moved to
-`C:/Users/rekal/AppData/Local/epistemics-eval/cache`, outside OneDrive.
+`%LOCALAPPDATA%/epistemics-eval/cache`, outside OneDrive.
 
 **Tests.** 172 passing, 36 of them in `tests/test_b2_findings.py`. Three legacy tests were updated
 to the new semantics (extra fields now rejected, length now truncated, cached finish_reason test
