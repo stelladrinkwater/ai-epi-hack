@@ -45,7 +45,7 @@ smoke:
 # Persistent response cache (SPEC §7). Outside OneDrive so sync does not
 # corrupt in-flight writes; created on demand.
 cache:
-  dir: C:/Users/rekal/AppData/Local/epistemics-eval/cache
+  dir: cache
 
 # Programmatic condition construction (SPEC v1.3.1 §5).
 m2:
@@ -69,10 +69,10 @@ run:
   k: 5
   order_seed: 20261118
   tag_required: spec-frozen
-  shards: 10
+  shards: 1
   # Logs live outside the repo and outside OneDrive (SPEC v1.5 §7): one log
   # per tier and prompt variant under <results_dir>/raw/.
-  results_dir: C:/Users/rekal/AppData/Local/epistemics-eval/results
+  results_dir: results
 
 # Main subject (SPEC §3). Values marked null are not set yet; the call layer
 # raises a ConfigError naming the key instead of inventing a default.
@@ -87,7 +87,7 @@ models:
     thinking:
       enabled: false
       budget_tokens: null
-    concurrency: 4       # unused: run_batch is sequential; kept for config compatibility
+    concurrency: 32      # maximum in-flight independent verifier calls
     # 5 attempts = 4 retries, per SPEC v1.1 (exponential backoff, 60 s cap).
     max_retries: 4
     # Retry policy (SPEC v1.1): only listed outcomes are retried. The main run

@@ -4,6 +4,27 @@ Changes to `SPEC.md` are recorded here with their reason, per SPEC §7. The §3/
 changes below were made before any experiment result existed; the TASK A2 entry
 above is the first result and records that ordering.
 
+## 2026-11-15 — Concurrent API calls and Mac-local run paths
+
+Before the main experiment, the call layer was updated to use the configured 32-worker
+limit for independent, stateless requests. HTTP sessions are isolated per worker thread;
+the seeded unit order and per-unit identifiers are retained, while log rows append as
+responses finish. The run uses one shard per tier so the default command processes the
+whole tier. Results and cache paths are now repo-local (`results/` and `cache/`) for the
+Mac environment. The runner prints per-call duration, completion percentage, and a
+live total-time/remaining-time estimate after each completed sample.
+
+**Reason.** The model calls are I/O-bound and independent, so 32-way concurrency shortens
+wall time without changing the experimental unit or sharing history across the five samples.
+The Mac-local paths replace Windows-specific paths that would not resolve on this machine.
+
+Using a rough 2–8 seconds per API call, estimated tier runtimes change from about 1.9–7.8 hours
+to 10–30 minutes for core, 42 minutes–2.8 hours to 4–12 minutes for extended, and 50 minutes–3.3
+hours to 5–14 minutes for naive. These projections include batching overhead and are not measured;
+the runner reports a live estimate from observed throughput during each run.
+
+- SPEC.md SHA-256: `a56a76500c8bf1c3925a3a474e0af48aeb9e60ee5502bb95be4cc808666c3b9f`
+
 ## 2026-11-15 — Audit sheets committed
 
 Coder 1 is Onurcan from the two sheets only, with Onurcan review (audit/coded_onurcan.csv,

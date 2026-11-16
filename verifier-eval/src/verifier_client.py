@@ -16,6 +16,7 @@ import sys
 import threading
 import time
 import uuid
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -359,6 +360,7 @@ class VerifierClient:
         )
         self._sleep = sleep
         self._sleep_total = 0.0
+        self._sleep_lock = threading.Lock()
         self._cache: dict[str, dict[str, Any]] = {}
         self._state_lock = threading.RLock()
         self._log_lock = threading.Lock()
@@ -445,12 +447,13 @@ class VerifierClient:
 
     def _sleep_for(self, delay: float) -> None:
         """Sleep, enforcing the per-run cumulative cap (SPEC v1.5 §7)."""
-        if self._sleep_total + delay > RUN_SLEEP_BUDGET_SECONDS:
-            raise RunAborted(
-                0,
-                f"cumulative retry sleep would exceed {RUN_SLEEP_BUDGET_SECONDS:.0f}s",
-            )
-        self._sleep_total += delay
+        with self._sleep_lock:
+            if self._sleep_total + delay > RUN_SLEEP_BUDGET_SECONDS:
+                raise RunAborted(
+                    0,
+                    f"cumulative retry sleep would exceed {RUN_SLEEP_BUDGET_SECONDS:.0f}s",
+                )
+            self._sleep_total += delay
         self._sleep(delay)
 
     def _log(self, row: dict[str, Any]) -> None:
@@ -962,6 +965,7 @@ class VerifierClient:
         items: list[dict[str, Any]],
         order_seed: int,
         resume_passes: int = 2,
+        on_unit_complete: Any | None = None,
     ) -> list[dict[str, Any]]:
         """Run verify() calls in a seeded shuffle with crash-resume support.
 
@@ -986,6 +990,12 @@ class VerifierClient:
         self._assert_cache_matches_log(recorded)
         rows_by_key: dict[str, dict[str, Any]] = dict(recorded)
         pending = [item for item in ordered if self._unit_cache_key(item) not in done]
+        pending_keys = {self._unit_cache_key(item) for item in pending}
+        if on_unit_complete is not None:
+            for item in ordered:
+                key = self._unit_cache_key(item)
+                if key not in pending_keys and key in rows_by_key:
+                    on_unit_complete(rows_by_key[key])
 
         for pass_index in range(resume_passes + 1):
             if pass_index == 0:
@@ -998,13 +1008,38 @@ class VerifierClient:
             if not batch:
                 break
             final = pass_index == resume_passes
-            # The abort counter is per pass and resets on any success.
-            consecutive_4xx = 0
-            for item in batch:
+            # Calls are independent (no chat history is shared). Keep at most
+            # the configured number in flight; results are reassembled in
+            # seeded batch order for deterministic error handling.
+            def run_one(item: dict[str, Any]) -> dict[str, Any]:
+                unit_started = time.monotonic()
                 row = self.verify(
                     **item, order_seed=order_seed, resume_pass=pass_index,
                     is_last_pass=final, in_batch=True,
                 )
+                row["_unit_elapsed_seconds"] = time.monotonic() - unit_started
+                return row
+
+            completed: dict[str, dict[str, Any]] = {}
+            with ThreadPoolExecutor(max_workers=self.config.concurrency) as pool:
+                futures = {pool.submit(run_one, item): item for item in batch}
+                for future in as_completed(futures):
+                    item = futures[future]
+                    row = future.result()
+                    key = self._unit_cache_key(item)
+                    if on_unit_complete is not None and (
+                        row["outcome"] != "api_error" or final
+                    ):
+                        on_unit_complete(row)
+                    row.pop("_unit_elapsed_seconds", None)
+                    completed[key] = row
+            batch_rows = [completed[self._unit_cache_key(item)] for item in batch]
+
+            # The abort counter is per pass and resets on any success. Since
+            # results are consumed in seeded order, this keeps the existing
+            # guard deterministic despite concurrent requests.
+            consecutive_4xx = 0
+            for row in batch_rows:
                 rows_by_key[row["cache_key"]] = row
                 status = row.get("http_status")
                 if (
