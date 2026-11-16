@@ -9,6 +9,7 @@ being retried.
 from __future__ import annotations
 
 import re
+import threading
 import time
 from dataclasses import dataclass
 from typing import Any
@@ -114,7 +115,20 @@ class DeepSeekBackend:
         self.api_key = api_key
         self.model = model
         self.timeout = timeout
-        self.session = session or requests.Session()
+        # A backend is shared by the verifier worker pool. Keep a separate
+        # requests.Session per worker thread; callers may still inject one
+        # session explicitly (primarily for tests and custom integrations).
+        self._provided_session = session
+        self._thread_local = threading.local()
+
+    def _session(self) -> requests.Session:
+        if self._provided_session is not None:
+            return self._provided_session
+        session = getattr(self._thread_local, "session", None)
+        if session is None:
+            session = requests.Session()
+            self._thread_local.session = session
+        return session
 
     def complete(
         self,
@@ -144,7 +158,7 @@ class DeepSeekBackend:
         started = time.monotonic()
         request_error: BackendError | None = None
         try:
-            response = self.session.post(
+            response = self._session().post(
                 f"{self.base_url}/chat/completions",
                 headers={
                     "Authorization": f"Bearer {self.api_key}",

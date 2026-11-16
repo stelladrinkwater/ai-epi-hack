@@ -257,7 +257,9 @@ Generator note (M3-M5): unchanged.
 - The bootstrap interval does not include the selection noise of the C0 filter.
 - M3-M5 and the contested-claims class were not run.
 - Code was written with AI agents and reviewed adversarially by Claude Opus 5.5.
-- The call layer is sequential; concurrency is unused.
+- Calls within each seeded batch run concurrently up to `models.deepseek.concurrency`.
+  They are stateless, with no conversation history shared between samples. Result rows retain
+  their seeded unit identities; JSONL append order may follow response completion order.
 - Not implemented (documented): code for the health-shard thresholds; automatic recovery from a
   torn log write (manual, logged); the abort counter resetting per 50-unit chunk; the pooled
   secondary contrast M2 vs C0p (per-class rows only); the separate cut-point step; protection

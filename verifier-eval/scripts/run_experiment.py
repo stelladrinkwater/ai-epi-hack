@@ -14,6 +14,7 @@ import random
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -499,9 +500,44 @@ def execute(
 ) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     results: list[dict[str, Any]] = []
+    started = time.monotonic()
+    completed_count = 0
+
+    def report_unit_complete(row: dict[str, Any]) -> None:
+        nonlocal completed_count
+        completed_count += 1
+        elapsed = time.monotonic() - started
+        fraction = completed_count / len(units) if units else 1.0
+        estimated_total = elapsed / fraction if fraction else 0.0
+        duration_seconds = (
+            0.0 if row.get("cached") else
+            row.get("_unit_elapsed_seconds")
+        )
+        print(
+            json.dumps({
+                "event": "unit_complete",
+                "finished": completed_count,
+                "total": len(units),
+                "percent_done": round(100.0 * fraction, 1),
+                "call_seconds": duration_seconds,
+                "elapsed_seconds": round(elapsed, 1),
+                "estimated_total_seconds": round(estimated_total, 1),
+                "estimated_remaining_seconds": round(max(0.0, estimated_total - elapsed), 1),
+                "outcome": row.get("outcome"),
+                "cached": bool(row.get("cached")),
+            }),
+            file=sys.stderr,
+            flush=True,
+        )
+
     for offset in range(0, len(units), progress_every):
         chunk = units[offset : offset + progress_every]
-        batch = client.run_batch(chunk, order_seed=order_seed, resume_passes=resume_passes)
+        batch = client.run_batch(
+            chunk,
+            order_seed=order_seed,
+            resume_passes=resume_passes,
+            on_unit_complete=report_unit_complete,
+        )
         rows.extend(batch)
         results.extend(row for row in batch if row.get("is_result"))
         if api_error_window_abort(results):
