@@ -18,7 +18,7 @@ AI x Epistemics Research Sprint
 
 Insight from this: Can we get models to tell us what principles they are applying, if any? Can we ask for similar examples that support their confidence rating? Can we measure *how* similar each similar example is, then how many their are? Can some metric like this (e.g. get top 5 most similar past known examples, measure how similar they are, add the similarities to get a past-data-similarity-score) tell us something about confidence?
 
-## Eval Structure (Applying ML Principles):
+## Eval Structure:
 Prompt model with a set of evidence statements and a claim and ask if the claim is supported and how certain the model is about its answer re: support (note this is separate from the certainty in the claim itself). Then, change the evidence (by deleting key facts, adding irrelevant facts, and injecting prompts to steer the results), rep-prompt, compare results
    
 #### (Supporting Idea) To find hard questions fast:
